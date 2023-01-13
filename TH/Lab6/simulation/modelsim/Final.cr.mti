@@ -1,0 +1,150 @@
+{C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v} {2 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DataMem
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(21): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(24): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(29): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v(30): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	DataMem
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/mux.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/mux.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/ALU.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/ALU.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/datapath.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/datapath.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/control_unit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/control_unit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v} {2 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Registers
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(21): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(24): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(29): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(30): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(31): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(32): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(40): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(46): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(47): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	Registers
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tbALU.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tbALU.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tbALU
+
+Top level modules:
+	tbALU
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/sign_extend.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/sign_extend.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}}

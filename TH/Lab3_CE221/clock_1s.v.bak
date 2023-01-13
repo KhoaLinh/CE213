@@ -1,0 +1,17 @@
+module clock_1s(clk,CLOCK_50);
+	output clk;
+	input CLOCK_50;
+	
+	reg enable;
+	reg [24:0]counter;
+
+	always @(posedge CLOCK_50) begin
+		if(counter == 24'd0)
+			counter <= 24'd25000000;
+		else counter <= counter - 1'd1;
+	end
+	always @(posedge CLOCK_50) begin
+		if (enable) 
+			clk = ~clk;
+	end
+endmodule

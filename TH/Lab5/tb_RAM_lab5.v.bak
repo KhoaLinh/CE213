@@ -1,0 +1,30 @@
+
+module tb_RAM_lab5();
+    reg clock, cs, wr_e, oe;
+    reg [6:0] addr;
+    reg [7:0] data;
+    RAM_lab5 uut(data,clock, cs, wr_e, oe, addr);
+    initial
+    begin
+        data = 8'b00000000;
+        clock = 0;
+        cs = 0;
+        wr_e = 0;
+        oe = 0;
+        addr = 0;
+        #10 cs = 1;
+        #10 wr_e = 1;
+        #10 addr = 1;
+        #10 wr_e = 0;
+        #10 oe = 1;
+        #10 oe = 0;
+        #10 $stop;
+    end
+    always #5 clock = ~clock;
+    integer i;
+    initial
+    for (i = 0 ; i < 6 ; i = i + 1 ) begin
+        data = data +1;        
+    end
+endmodule
+

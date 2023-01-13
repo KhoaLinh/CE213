@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\KHOA LINH\Desktop\DuyThong\Lnx\simulation
+vlnx
+Z1 !s100 amemI5fTDFRAOX]@Q>4SZ3
+Z2 I]iNVCAZ1]3=AFoM5UZJic0
+Z3 VFA@LE6P]=>z5hmhI=kS533
+Z4 dC:\Users\KHOA LINH\Desktop\DuyThong\Lnx\simulation\modelsim
+Z5 w1670506063
+Z6 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.vo
+Z7 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1670506464.696000
+Z12 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.vo|
+!s101 -O0
+vtb_lnx
+!i10b 1
+Z13 !s100 QlnT4R;SAc>^SE5RH:4^M0
+Z14 IJ9ieWHLkRLPghOKaI`i4H3
+Z15 VY]0d4@X:G>:16<3U5PCE:1
+R4
+Z16 w1670503105
+Z17 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v
+Z18 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1670506464.846000
+!s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v|
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v|
+!s101 -O0
+R10

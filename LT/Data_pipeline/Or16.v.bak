@@ -1,0 +1,8 @@
+module Or16(a,b,o);
+	output o[15:0];
+	input a[15:0];
+	input b{15:0};
+	
+	or or_gate16[0:15](a,b,o);
+	
+endmodule

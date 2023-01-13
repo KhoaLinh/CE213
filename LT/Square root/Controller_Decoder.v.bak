@@ -1,0 +1,57 @@
+module Controller_Decoder (OE, Op1, Op2, A, B, C, D);
+	
+	output [11:0]OE;
+	output [1:0]Op1;
+	output [1:0]Op2;
+	input A, B, C, D;
+	
+	and and1(a1, ~B, C, D);
+	and and2(a2, B, ~C, ~D);
+	or or1(Op1[1], A, a1, a2);
+	
+	and and3(a3, C, ~D);
+	and and4(a4, B, ~D;
+	and and5(a5, B, C);
+	and and6(a6, ~B, ~C, D);
+	or or2(Op2[0], a3, a4, a5, a6);
+	
+	and and7(Op2[1], B, D);
+	
+	and and8(Op2[0], B, C);
+	
+	and and9(a9, B ,D);
+	and and10(a10, B ,C);
+	or or3(OE[11], a9, a10);
+	
+	and and11(OE[10], A, ~D);
+	
+	and and12(a12, B, D);
+	and and13(a13, B, C);
+	or or4(OE[9], a12, a13);
+	
+	and and14(OE[8], B, C, D);
+	
+	and and15(a15, A, ~D);
+	and and16(a16, B, C, ~D);
+	or or5(OE[7], a15, a16);
+	
+	and and17(OE[6], B, ~C, D);
+	
+	and and18(a18, ~A, ~B, ~C, D);
+	or or6(OE[5], OE[6], a18);
+	
+	and and19(a19, ~B, C, ~D);
+	or or7(OE[4], a19, OE[8]);
+	
+	and and20(a20, B, C, ~D);
+	or or8(OE[3], a20, a18);
+	
+	or or9(OE[2], OE[6], a18);
+	
+	and and21(a21, ~B, C);
+	and and22(a22, C, D);
+	and and23(a23, B, ~C, ~D);
+	or or10(OE[1], A, a21, a22, a23);
+	
+	or or11(OE[0], a20, a18);
+endmodule

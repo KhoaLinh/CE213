@@ -1,0 +1,696 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {C:/Users/KHOA LINH/Desktop/NEW/cuoiky/simulation/TestMIPS.mpf} 
+# Loading project TestMIPS
+# 0 compiles, 9 failed with no errors. 
+# reading C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project Final
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# Compile of testALU.v failed with 1 errors.
+# 10 compiles, 1 failed with 1 error. 
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb 
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+add wave -position end  sim:/tb/code
+add wave -position end  sim:/tb/clk
+add wave -position end  sim:/tb/ALUScr1
+add wave -position end  sim:/tb/ALUScr2
+add wave -position end  sim:/tb/WD
+add wave -position end  sim:/tb/alu_out
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# WARNING: No extended dataflow license exists
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+# Load canceled
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Compile of ALU.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of DataMem.v was successful with warnings.
+# Compile of datapath.v was successful.
+# Compile of mux.v was successful.
+# Compile of Registers.v was successful with warnings.
+# Compile of sign_extend.v was successful.
+# Compile of tb.v was successful.
+# Compile of tbALU.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.tb
+# Loading work.datapath
+# Loading work.control_unit
+# Loading work.Registers
+# Loading work.sign_extend
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.mux
+run -all
+# Break in Module tb at C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v line 17

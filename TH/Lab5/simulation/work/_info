@@ -1,0 +1,184 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vLab5
+Z1 !s100 zGKoFnT2W5@SUkd5Z@H>G3
+Z2 IH6U?H[;F]zX1`oEG^8kf70
+Z3 VJakmI=@MQLBobTa@mzzO01
+Z4 dC:\Users\KHOA LINH\Desktop\Final\Lab5\simulation
+Z5 w1668560987
+Z6 8D:/CE213-TKHTSHDL/TH/Lab5/Lab5.v
+Z7 FD:/CE213-TKHTSHDL/TH/Lab5/Lab5.v
+L0 2
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/Lab5.v|
+Z10 o-work work -O0
+Z11 n@lab5
+Z12 !s108 1671595686.391000
+Z13 !s107 D:/CE213-TKHTSHDL/TH/Lab5/Lab5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRAM_lab5
+Z14 !s100 l993ZZ85>iZ6:aOPB2>`i3
+Z15 IQDPz@^jnz3k_onVzYGjc[1
+Z16 VXkS^nTdELFiWPIa0Vd6J00
+R4
+Z17 w1670941863
+Z18 8D:/CE213-TKHTSHDL/TH/Lab5/RAM_lab5.v
+Z19 FD:/CE213-TKHTSHDL/TH/Lab5/RAM_lab5.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/RAM_lab5.v|
+R10
+Z21 n@r@a@m_lab5
+Z22 !s108 1671595686.439000
+Z23 !s107 D:/CE213-TKHTSHDL/TH/Lab5/RAM_lab5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vROM
+!i10b 1
+Z24 !s100 k]J=cL4e`]4lf]Vne8@:b1
+Z25 IVbe50Yj@Jlml<]^YgmC4e2
+Z26 VSLC;B]g2XnXTHE@OZU?^n0
+R4
+Z27 w1671514797
+Z28 8D:/CE213-TKHTSHDL/TH/Lab5/ROM.v
+Z29 FD:/CE213-TKHTSHDL/TH/Lab5/ROM.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1671595686.758000
+!s107 D:/CE213-TKHTSHDL/TH/Lab5/ROM.v|
+Z30 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/ROM.v|
+!s101 -O0
+R10
+Z31 n@r@o@m
+vROM_lab5
+Z32 !s100 Eb4cRA`4h6TGP_ze?Z:kV1
+Z33 I^6eJbMc?;a8MK]LI[64X=3
+Z34 VcZR`lN5gGOSY`J7IKDgz`2
+R4
+Z35 w1671092475
+Z36 8D:/CE213-TKHTSHDL/TH/Lab5/ROM_lab5.v
+Z37 FD:/CE213-TKHTSHDL/TH/Lab5/ROM_lab5.v
+L0 1
+R8
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/ROM_lab5.v|
+R10
+Z39 n@r@o@m_lab5
+Z40 !s108 1671595686.668000
+Z41 !s107 D:/CE213-TKHTSHDL/TH/Lab5/ROM_lab5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_RAM_lab5
+Z42 !s100 AH]a>T_Vj`ULgJ`LV0;9>3
+Z43 I`aO[fP::dgHKlINAinc:S0
+Z44 V>0zJCFh[J6foZFPPbnAc91
+R4
+Z45 w1670999356
+Z46 8D:/CE213-TKHTSHDL/TH/Lab5/tb_RAM_lab5.v
+Z47 FD:/CE213-TKHTSHDL/TH/Lab5/tb_RAM_lab5.v
+L0 2
+R8
+r1
+31
+Z48 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/tb_RAM_lab5.v|
+R10
+Z49 ntb_@r@a@m_lab5
+Z50 !s108 1671595686.485000
+Z51 !s107 D:/CE213-TKHTSHDL/TH/Lab5/tb_RAM_lab5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_ROM_lab5
+Z52 !s100 DjNLiWYQn^kG=SHRP>21Q3
+Z53 IEX61;lG_8659T2`XP;4AR1
+Z54 Ved4Lo2[a;SihGPm^g>I263
+R4
+Z55 w1671092614
+Z56 8D:/CE213-TKHTSHDL/TH/Lab5/tb_ROM_lab5.v
+Z57 FD:/CE213-TKHTSHDL/TH/Lab5/tb_ROM_lab5.v
+L0 2
+R8
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/tb_ROM_lab5.v|
+R10
+Z59 ntb_@r@o@m_lab5
+!i10b 1
+!s85 0
+Z60 !s108 1671595686.712000
+Z61 !s107 D:/CE213-TKHTSHDL/TH/Lab5/tb_ROM_lab5.v|
+!s101 -O0
+vtb_seftcheckingRAM
+Z62 !s100 LLU:ek[7DM?NejSFf]=c]0
+Z63 IVRQ8[ZWH[bVo3n0AE3^Fc2
+Z64 VFJkHa05bECADnGQjUVSiD1
+R4
+Z65 w1671001721
+Z66 8D:/CE213-TKHTSHDL/TH/Lab5/tb_seftcheckingRAM.v
+Z67 FD:/CE213-TKHTSHDL/TH/Lab5/tb_seftcheckingRAM.v
+L0 2
+R8
+r1
+31
+Z68 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/tb_seftcheckingRAM.v|
+R10
+Z69 ntb_seftchecking@r@a@m
+Z70 !s108 1671595686.577000
+Z71 !s107 D:/CE213-TKHTSHDL/TH/Lab5/tb_seftcheckingRAM.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_selfchecking
+Z72 !s100 Jhf;Edbzl71_<<QjhDh6h3
+Z73 IGNVfnJQD982=0Z8zbem;@2
+Z74 V>?gHEOAUU0ROMEa0fioRF0
+R4
+Z75 w1668563748
+Z76 8D:/CE213-TKHTSHDL/TH/Lab5/tb_seffchecking.v
+Z77 FD:/CE213-TKHTSHDL/TH/Lab5/tb_seffchecking.v
+L0 2
+R8
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/tb_seffchecking.v|
+R10
+Z79 !s108 1671595686.531000
+Z80 !s107 D:/CE213-TKHTSHDL/TH/Lab5/tb_seffchecking.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtestCounter
+Z81 !s100 jWYZXD9ZNB6cZoM1e7BHZ2
+Z82 ImIBeJ7O5Ko5PKAKI91[`D3
+Z83 VcfGBB_FIXRDo>VAKIF=VN2
+R4
+Z84 w1668562411
+Z85 8D:/CE213-TKHTSHDL/TH/Lab5/testCounter.v
+Z86 FD:/CE213-TKHTSHDL/TH/Lab5/testCounter.v
+L0 2
+R8
+r1
+31
+Z87 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/TH/Lab5/testCounter.v|
+R10
+Z88 ntest@counter
+Z89 !s108 1671595686.622000
+Z90 !s107 D:/CE213-TKHTSHDL/TH/Lab5/testCounter.v|
+!i10b 1
+!s85 0
+!s101 -O0

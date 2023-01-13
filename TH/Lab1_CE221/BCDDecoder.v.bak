@@ -1,0 +1,16 @@
+module BCDDecoder(o,i);
+	output [6:0]o;
+	input [2:0]i;
+	
+	always @(o,i) begin
+		case(sel)
+			3b'000 : o = 7b'001001;
+			3b'001 : o = 7b'000110;
+			3b'010 : o = 7b'100111;
+			3b'011 : o = 7b'100111;
+			3b'100 : o = 7b'100000;
+			default : o = 6b'xxxxxx'
+		endcase
+	end
+	
+endmodule

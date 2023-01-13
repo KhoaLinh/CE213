@@ -1,0 +1,16 @@
+module twoDigitBCD(seg1,seg0,in);
+	output [6:0]seg0,seg1;
+	input [7:0]in;
+	
+	reg [3:0]num0,num1;
+	
+	bcd_decoder bcd0(seg0,num0);
+	bcd_decoder bcd1(seg1,num0);
+	
+	always @(in) begin
+		if(in < 7'd9) begin
+			
+			
+		end
+	end
+endmodule

@@ -1,0 +1,180 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\KHOA LINH\Desktop\NEW\cuoiky\simulation
+vALU
+Z1 !s100 2TVR9k2Y_R3EiW@]i[h_Q2
+Z2 If;;Kc<P@fnI>T36Xa=Cgj1
+Z3 V9l[z@MWkHEfd^UQTC;LA[2
+Z4 dC:\Users\KHOA LINH\Desktop\NEW\cuoiky\simulation\modelsim
+Z5 w1671444178
+Z6 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/ALU.v
+Z7 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/ALU.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/ALU.v|
+Z10 o-work work -O0
+Z11 n@a@l@u
+Z12 !s108 1671467679.515000
+Z13 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontrol_unit
+Z14 !s100 3<:XlTYhdaY?^C^7PKY<]1
+Z15 I1WF?R6jnaHBm50o2M=6Z23
+Z16 V]nZOThk8_[F1PO;3>NbKg0
+R4
+Z17 w1671465184
+Z18 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/control_unit.v
+Z19 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/control_unit.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/control_unit.v|
+R10
+Z21 !s108 1671467679.561000
+Z22 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/control_unit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDataMem
+Z23 !s100 4e_NI0n^:<5>8MUX7A^OH0
+Z24 IQ=YI080Fkzf86Pma4JAGK0
+Z25 V^o`9N]jk`gA1=5L[Xdh<^1
+R4
+Z26 w1671467292
+Z27 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v
+Z28 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v
+L0 1
+R8
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v|
+R10
+Z30 n@data@mem
+Z31 !s108 1671467679.617000
+Z32 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/DataMem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z33 !s100 JXhN_RjW6BMm]0B6FQlIV3
+Z34 INQzKoXl4B?ZIV0[mU6kEM2
+Z35 VV^HL[V97SzcG7RInF8A;B0
+R4
+Z36 w1671445105
+Z37 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/datapath.v
+Z38 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/datapath.v
+L0 2
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/datapath.v|
+R10
+Z40 !s108 1671467679.675000
+Z41 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux
+Z42 !s100 cMFXKNf6I6QN5OLCcPQgD3
+Z43 I10nY>gXTBOk<8a;=VCaNU3
+Z44 Vm4>;F8b`I8bF]iVcnb=1L2
+R4
+Z45 w1671441847
+Z46 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/mux.v
+Z47 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/mux.v
+L0 1
+R8
+r1
+31
+Z48 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/mux.v|
+R10
+Z49 !s108 1671467679.731000
+Z50 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/mux.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegisters
+Z51 !s100 =S_W5l1DzoGY8alVNFI1B3
+Z52 I1KTjHXI7TXlE_NN1[cGGI2
+Z53 VO2eL5Zn]`Lb45on_JUnf_3
+R4
+Z54 w1671465004
+Z55 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v
+Z56 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v
+L0 1
+R8
+r1
+31
+Z57 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v|
+R10
+Z58 n@registers
+Z59 !s108 1671467679.785000
+Z60 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/Registers.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsign_extend
+Z61 !s100 [=EeH:GI2Sz0gF`ZcI4d@2
+Z62 I`U>1gBM@Ab:Y]dOMBVN3P0
+Z63 VL_AmG6_iR^baIb[0mnZgY1
+R4
+Z64 w1669103439
+Z65 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/sign_extend.v
+Z66 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/sign_extend.v
+L0 1
+R8
+r1
+31
+Z67 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/sign_extend.v|
+R10
+Z68 !s108 1671467679.842000
+Z69 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/sign_extend.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb
+Z70 I;Y<I3lB8Dfn^ZXP`ah[IW3
+Z71 VV@Xn<HnSRM[I5c1?BH]3a3
+R4
+Z72 w1671467675
+Z73 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v
+Z74 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v
+L0 2
+R8
+r1
+31
+Z75 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v|
+R10
+!i10b 1
+Z76 !s100 THb;i`XkHE;HFS:Db@c?>1
+!s85 0
+Z77 !s108 1671467679.911000
+Z78 !s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tb.v|
+!s101 -O0
+vtbALU
+!i10b 1
+Z79 !s100 08@N=F:@8^eaf3W?1f7?P1
+Z80 I78T11E4]AQka[gMhj5jzk0
+Z81 V7_zAdzObO4];C=:F0UMbR3
+R4
+Z82 w1671444591
+Z83 8C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tbALU.v
+Z84 FC:/Users/KHOA LINH/Desktop/NEW/cuoiky/tbALU.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1671467679.966000
+!s107 C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tbALU.v|
+Z85 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/NEW/cuoiky/tbALU.v|
+!s101 -O0
+R10
+Z86 ntb@a@l@u

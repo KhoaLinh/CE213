@@ -1,0 +1,39 @@
+module NextStageLogic(CurrentStage, START, FLAG, READY, NextStage);
+input [2:0]CurrentStage; 
+input START, FLAG, READY;
+output [2:0]NextStage;
+
+// S0 000
+// S0 ~CurrentStage[2] ~CurrentStage[1] ~CurrentStage[0]
+// S1 001 ~CurrentStage[2] ~CurrentStage[1] CurrentStage[0]
+// S2 010 ~CurrentStage[2] CurrentStage[1] ~CurrentStage[0]
+// S3 011 ~CurrentStage[2] CurrentStage[1] CurrentStage[0]
+// S4 100 CurrentStage[2] ~CurrentStage[1] ~CurrentStage[0]
+// S5 101 CurrentStage[2] ~CurrentStage[1] CurrentStage[0]
+// S6 110 CurrentStage[2] CurrentStage[1] ~CurrentStage[0]
+// S7 111 CurrentStage[2] CurrentStage[1] CurrentStage[0]
+
+// Q2 = S3.Ready + S4.(Flag' + Flag + Start' + Start + Ready') + S6.1 + S7.1
+assign NextStage[2] = ~CurrentStage[2] CurrentStage[1] CurrentStage[0] & READY
+                    | CurrentStage[2] ~CurrentStage[1] ~CurrentStage[0] & (FLAG' | FLAG | START' | START | READY')
+                    | CurrentStage[2] CurrentStage[1] ~CurrentStage[0] 
+                    | CurrentStage[2] CurrentStage[1] CurrentStage[0];
+
+// Q1 = S1.1 + S2.1 + S3.(Flag' + Flag + Start' + Start + Ready') + S5.1 + S6.Flag + S7.1
+assign NextStage[1] = ~CurrentStage[2] ~CurrentStage[1] CurrentStage[0] 
+                    | ~CurrentStage[2] CurrentStage[1] ~CurrentStage[0] 
+                    | ~CurrentStage[2] CurrentStage[1] CurrentStage[0] & (FLAG' | FLAG | START' | START | READY')
+                    | CurrentStage[2] ~CurrentStage[1] CurrentStage[0] 
+                    | CurrentStage[2] CurrentStage[1] ~CurrentStage[0] & FLAG
+                    | CurrentStage[2] CurrentStage[1] CurrentStage[0];
+
+// Q0 = S0.Start + S2.1 + S3.(Flag + Flag' + Start + Start' + Ready')  + S4.Ready + S6.Flag + S7.1
+assign NextStage[0] = ~CurrentStage[2] ~CurrentStage[1] ~CurrentStage[0] & START
+                    | ~CurrentStage[2] CurrentStage[1] ~CurrentStage[0] 
+                    | ~CurrentStage[2] CurrentStage[1] CurrentStage[0] & (FLAG | FLAG' | START | START' | READY')
+                    | CurrentStage[2] ~CurrentStage[1] ~CurrentStage[0] & READY
+                    | CurrentStage[2] CurrentStage[1] ~CurrentStage[0] & FLAG
+                    | CurrentStage[2] CurrentStage[1] CurrentStage[0];
+
+
+endmodule

@@ -1,0 +1,5 @@
+module MUX5to1_1bit(o,a,b,c,d,e,sel);
+	output o;
+	input a,b,c,d,e,sel;
+	
+	

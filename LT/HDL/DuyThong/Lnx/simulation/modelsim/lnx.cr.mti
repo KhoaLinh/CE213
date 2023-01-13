@@ -1,0 +1,15 @@
+{C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_lnx
+
+Top level modules:
+	tb_lnx
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.vo} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.vo}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lnx
+
+Top level modules:
+	lnx
+
+} {} {}}

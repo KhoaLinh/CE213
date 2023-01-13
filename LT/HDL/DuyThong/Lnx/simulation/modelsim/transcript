@@ -1,0 +1,1646 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.mpf} 
+# Loading project lnx
+# Compile of lnx.vo was successful.
+# Compile of tb_lnx.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui -sdftyp {/lnx=C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx_v.sdo} work.lnx work.tb_lnx
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui -sdftyp {/lnx=C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx_v.sdo} work.lnx work.tb_lnx 
+# Loading work.lnx
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_ff
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_comb
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux21
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_dffe
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_asynch_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_clkctrl
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux41
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_ena_reg
+# Loading work.tb_lnx
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx_v.sdo
+# Loading instances from lnx_v.sdo
+# Loading instances from lnx_v.sdo
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.CYCLONEII_PRIM_DFFE
+# Loading timing data from C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx_v.sdo
+# Loading timing data from lnx_v.sdo
+# Loading timing data from lnx_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lnx File: C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/simulation/modelsim/lnx.vo
+add wave -position end  sim:/tb_lnx/START
+add wave -position end  sim:/tb_lnx/CLK
+add wave -position end  sim:/tb_lnx/RESETstage
+add wave -position end  sim:/tb_lnx/VALID
+add wave -position end  sim:/tb_lnx/READY
+add wave -position end  sim:/tb_lnx/FLAG
+add wave -position end  sim:/tb_lnx/RESET
+add wave -position end  sim:/tb_lnx/ENABLE
+add wave -position end  sim:/tb_lnx/IN
+add wave -position end  sim:/tb_lnx/OUT
+add wave -position end  sim:/tb_lnx/busMUL0
+add wave -position end  sim:/tb_lnx/busMUL1
+add wave -position end  sim:/tb_lnx/busDiv0
+add wave -position end  sim:/tb_lnx/busDiv1
+add wave -position end  sim:/tb_lnx/busTich
+add wave -position end  sim:/tb_lnx/busThuong
+add wave -position end  sim:/tb_lnx/bus14
+add wave -position end  sim:/tb_lnx/busFULL
+run -all
+# Break in Module tb_lnx at C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v line 24
+# WARNING: No extended dataflow license exists
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# WARNING: No extended dataflow license exists
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+# bad window or grid path name ".main_pane.dataflow.interior.cs.body.pw.wf.top.grid"
+#     while executing
+# "ginfo widgets $grid"
+#     ("tree*" arm line 4)
+#     invoked from within
+# "switch -glob -- $ftn {
+# 
+# 		tree* {
+# 			set trees {}
+# 			## Order the trees by row.
+# 			foreach widget [ginfo widgets $grid] {
+# 				set idx $widget:tree
+# 			..."
+#     (procedure "ginfo" line 13)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# WARNING: No extended dataflow license exists
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# WARNING: No extended dataflow license exists
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "

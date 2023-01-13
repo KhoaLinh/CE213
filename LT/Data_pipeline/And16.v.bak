@@ -1,0 +1,8 @@
+module And16(a,b,o);
+	output [0:15]o;
+	input [0:15]a;
+	input [0:15]b;
+	
+	and [0:15](o,a,b);
+	
+endmodule

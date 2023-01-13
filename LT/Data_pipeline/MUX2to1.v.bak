@@ -1,0 +1,9 @@
+module MUX2to1(A,B,Sel,O);
+	output O;
+	input A,B,Sel;
+	
+	not(nSel,Sel);
+	and(n1,A,nSel);
+	and(n2,B,Sel);
+	or(O,n1,n1);
+endmodule

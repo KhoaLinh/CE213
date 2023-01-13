@@ -1,0 +1,963 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vADD
+Z1 !s100 E5Fb09QY<z::O>7S?>7U;3
+Z2 IJeNz]oG]ak]_YaPmf5Y5c0
+Z3 VMTKUQFdomD0IM]_R[0Fc;1
+Z4 dC:\Users\KHOA LINH\Desktop\DuyThong\Lnx\simulation
+Z5 w1669564937
+Z6 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ADD.v
+Z7 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ADD.v
+L0 2
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ADD.v|
+Z10 o-work work -O0
+Z11 n@a@d@d
+Z12 !s108 1670505586.221000
+Z13 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ADD.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vAndRow
+Z14 !s100 8FFU>U2g=9M;;<ihWnB4i1
+Z15 Iadc:F=L[U1d2N;i]MWBB00
+Z16 V_[W<7;6lL_OWY3;W0c3n41
+R4
+Z17 w1669699724
+Z18 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/AndRow.v
+Z19 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/AndRow.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/AndRow.v|
+R10
+Z21 n@and@row
+Z22 !s108 1670505586.277000
+Z23 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/AndRow.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCAS
+Z24 !s100 <nZ?CE<Idea_keKBJR5??2
+Z25 I9i@NY8oAX978=`0@UK9l21
+Z26 VmUl<kZO^d]3^@fT1Lmz;f0
+R4
+Z27 w1669724081
+Z28 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS.v
+Z29 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS.v|
+R10
+Z31 n@c@a@s
+Z32 !s108 1670505586.335000
+Z33 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCAS16bit
+Z34 !s100 SZP_K94iT@lGg:mWCjV[P1
+Z35 IF^fjbAmTLNE;FNP<2zlAm0
+Z36 V<ES_:727g0>03[;GQocj92
+R4
+Z37 w1669734110
+Z38 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS16bit.v
+Z39 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS16bit.v
+L0 1
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS16bit.v|
+R10
+Z41 n@c@a@s16bit
+Z42 !s108 1670505586.504000
+Z43 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCAS17bit
+Z44 !s100 KEjK:@8N@n]DPHDmRLFV00
+Z45 IY1??aUPiaGSJ:?939[OS01
+Z46 V0M`hbbVN3=^7fP49o<dd93
+R4
+Z47 w1669722442
+Z48 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS17bit.v
+Z49 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS17bit.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS17bit.v|
+R10
+Z51 n@c@a@s17bit
+Z52 !s108 1670505586.560000
+Z53 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS17bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCAS32bit
+Z54 !s100 YmOQ;aFn;`;nS9>kV3l;l1
+Z55 IeZKDYPnF0CidbiNNlIDUV2
+Z56 VFKQBgHSG7M4C2>[oU;Jm`2
+R4
+Z57 w1669734124
+Z58 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS32bit.v
+Z59 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS32bit.v
+L0 1
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS32bit.v|
+R10
+Z61 n@c@a@s32bit
+Z62 !s108 1670505586.618000
+Z63 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS32bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCAS7bit
+Z64 !s100 d49n;a=^EFZ9a@a8`9eY80
+Z65 IKNIjCnIAJ75akcSfj<5Xd0
+Z66 V:h]WGL]cGz_GM94YmKGio3
+R4
+Z67 w1669448715
+Z68 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS7bit.v
+Z69 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS7bit.v
+L0 1
+R8
+r1
+31
+Z70 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS7bit.v|
+R10
+Z71 n@c@a@s7bit
+Z72 !s108 1670505586.391000
+Z73 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS7bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCAS80bit
+Z74 !s100 2;?fCozoGA0jV]@TN=>>[2
+Z75 IDcmYBAWQ<1e0o1kZNCCQc2
+Z76 VfVk]]C:TCT<?2eVeg;j5P1
+R4
+Z77 w1669543606
+Z78 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS80bit.v
+Z79 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS80bit.v
+L0 1
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS80bit.v|
+R10
+Z81 n@c@a@s80bit
+Z82 !s108 1670505586.674000
+Z83 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS80bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCAS8bit
+Z84 !s100 AmSW4ThSZ6m0o[eWA=ea?3
+Z85 IdRDkOKCD@>fQ6@gcd8VGg0
+Z86 V5E1[KFF3TIPLMdbonD]X82
+R4
+Z87 w1669724271
+Z88 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS8bit.v
+Z89 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS8bit.v
+L0 1
+R8
+r1
+31
+Z90 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS8bit.v|
+R10
+Z91 n@c@a@s8bit
+Z92 !s108 1670505586.450000
+Z93 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS8bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vController
+Z94 !s100 if7lhbz@C?knP5:mR9G_E3
+Z95 Ik1m><zF544Ub_5aHDjoSQ1
+Z96 VKJohaU^EZP6cBjW<i7Lc80
+R4
+Z97 w1670414045
+Z98 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Controller.v
+Z99 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Controller.v
+L0 1
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Controller.v|
+R10
+Z101 n@controller
+Z102 !s108 1670505586.736000
+Z103 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vControllerDecoder
+Z104 !s100 B_>CzbK2>5QZl0TYJ6>L30
+Z105 I:77<@?OCBl0<n@XMm_n1X3
+Z106 VNT0@aB9B6gP6D^[GceHOl1
+R4
+Z107 w1670476633
+Z108 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ControllerDecoder.v
+Z109 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ControllerDecoder.v
+L0 1
+R8
+r1
+31
+Z110 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ControllerDecoder.v|
+R10
+Z111 n@controller@decoder
+Z112 !s108 1670505586.793000
+Z113 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ControllerDecoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCOUNTER
+Z114 !s100 MiKZ4hTGSHdHZhKU]W8P<3
+Z115 I0MNCLg3aH8PFjI3InB>WJ0
+Z116 VEI:0=32XAE^OM@bKO;V^R3
+R4
+Z117 w1670427201
+Z118 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/COUNTER.v
+Z119 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/COUNTER.v
+L0 1
+R8
+r1
+31
+Z120 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/COUNTER.v|
+R10
+Z121 n@c@o@u@n@t@e@r
+Z122 !s108 1670505586.853000
+Z123 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/COUNTER.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounterCheck
+Z124 !s100 h;`kieR4l3PYTT?]YL<Y13
+Z125 IHiGMHNoG:6kk3m<z`XXi[3
+Z126 VM:?>c4GNXLNZgEf18ojYT1
+R4
+Z127 w1670483906
+Z128 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CounterCheck.v
+Z129 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CounterCheck.v
+L0 1
+R8
+r1
+31
+Z130 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CounterCheck.v|
+R10
+Z131 n@counter@check
+Z132 !s108 1670505586.910000
+Z133 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CounterCheck.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDatapath
+Z134 !s100 kRg=>0:c1]d1FgNlghKz11
+Z135 Im9>Kz1V=Sbl6iOa0DY[z@3
+Z136 V1::aSOzzmdP:GNJ]=4>=T2
+R4
+Z137 w1670484436
+Z138 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Datapath.v
+Z139 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Datapath.v
+L0 1
+R8
+r1
+31
+Z140 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Datapath.v|
+R10
+Z141 n@datapath
+Z142 !s108 1670505586.966000
+Z143 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDIV
+Z144 !s100 U2bz^b3GLT12b_0lL?0921
+Z145 INaT_K`dbjYQBe_5TChi470
+Z146 Ve[_6DUcK<7Vn?UGCjel@63
+R4
+Z147 w1670247591
+Z148 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/DIV.v
+Z149 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/DIV.v
+L0 1
+R8
+r1
+31
+Z150 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/DIV.v|
+R10
+Z151 n@d@i@v
+Z152 !s108 1670505587.018000
+Z153 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/DIV.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDivi
+Z154 !s100 f^dWHf>3GSDbY`?H4X^5T2
+Z155 I47WIP@d:VAoIPIeYSEmf?2
+Z156 V^743hc5@Oc29G@GNKzBhc3
+R4
+Z157 w1670299883
+Z158 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divi.v
+Z159 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divi.v
+L0 1
+R8
+r1
+31
+Z160 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divi.v|
+R10
+Z161 n@divi
+Z162 !s108 1670505587.074000
+Z163 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divi.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDividendwire
+Z164 !s100 ajj?YChOenzS4bl>[9;?Z3
+Z165 IV>i0OXQIP4WaQJ9mo`dE<0
+Z166 VFc>VKAN4LV;>6?1H2<4DS1
+R4
+Z167 w1669921495
+Z168 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Dividendwire.v
+Z169 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Dividendwire.v
+L0 1
+R8
+r1
+31
+Z170 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Dividendwire.v|
+R10
+Z171 n@dividendwire
+Z172 !s108 1670505587.130000
+Z173 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Dividendwire.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDivisorwire
+Z174 !s100 Im@57^lOXIz78fe6P6>MD0
+Z175 IV_lOcGkRSYMAX`3JkQOh`0
+Z176 VzgQC>GW6<U4QQ6RR=ikJS0
+R4
+Z177 w1669921547
+Z178 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divisorwire.v
+Z179 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divisorwire.v
+L0 1
+R8
+r1
+31
+Z180 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divisorwire.v|
+R10
+Z181 n@divisorwire
+Z182 !s108 1670505587.187000
+Z183 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divisorwire.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFA
+Z184 !s100 1QCCQMiPRTWK0LH9@WF>H3
+Z185 Io]P0aoAY>zeS5[]JW;==c2
+Z186 VA=^?l^TdCln53;9]G:Cm53
+R4
+Z187 w1669922267
+Z188 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/FA.v
+Z189 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/FA.v
+L0 1
+R8
+r1
+31
+Z190 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/FA.v|
+R10
+n@f@a
+Z191 !s108 1670505587.244000
+Z192 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/FA.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vGetP
+Z193 !s100 `ZnXNKT>Z_BM`Q^G6FbGQ2
+Z194 Ie1A[@M2``^:OJ>U:=8DZB0
+Z195 VgALf7]cZKn?WUFb8QG03e1
+R4
+Z196 w1669921026
+Z197 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetP.v
+Z198 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetP.v
+L0 1
+R8
+r1
+31
+Z199 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetP.v|
+R10
+Z200 n@get@p
+Z201 !s108 1670505587.302000
+Z202 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetP.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vGetWait
+Z203 !s100 M0_l?Sg7nk@:^jT=ddF971
+Z204 IA]WeQ=Y;>MimejJ=ja@HG3
+Z205 VnLkhCk9I=>n0>WV[YEmFD0
+R4
+Z206 w1669543407
+Z207 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetWait.v
+Z208 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetWait.v
+L0 1
+R8
+r1
+31
+Z209 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetWait.v|
+R10
+Z210 n@get@wait
+Z211 !s108 1670505587.367000
+Z212 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetWait.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vHA
+Z213 !s100 b_:bbl;D^kh4kGVe29iEi3
+Z214 IZ>FLjVlnJZE`h@ck@YSC`0
+Z215 VhjbF<BlG:LI0=B8@nU94]0
+R4
+Z216 w1669922384
+Z217 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/HA.v
+Z218 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/HA.v
+L0 1
+R8
+r1
+31
+Z219 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/HA.v|
+R10
+n@h@a
+Z220 !s108 1670505587.441000
+Z221 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/HA.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlnx
+Z222 !s100 DU>07LaJL<mPY5e3ga1Y81
+Z223 I]oIBQZ;MdHjR9F7S05M`j2
+Z224 VFA@LE6P]=>z5hmhI=kS533
+R4
+Z225 w1670480942
+Z226 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/lnx.v
+Z227 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/lnx.v
+L0 3
+R8
+r1
+31
+Z228 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/lnx.v|
+R10
+Z229 !s108 1670505587.548000
+Z230 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/lnx.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMachine
+Z231 !s100 NXcFOP4G^>B`FWz5XJA2=1
+Z232 I6=OdBzU^d4RO8XY5cN@2V1
+Z233 VlJi=kVcBaFgSdQ5IElnLN0
+R4
+Z234 w1670414138
+Z235 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Machine.v
+Z236 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Machine.v
+L0 1
+R8
+r1
+31
+Z237 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Machine.v|
+R10
+Z238 n@machine
+Z239 !s108 1670505587.624000
+Z240 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Machine.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUL
+Z241 !s100 jmCh=GD9[4PfK6d@BIRj03
+Z242 I71UC<NQjMTmSID>zWA`aP3
+Z243 V>YIUz1IFKIX10i<6]ecY32
+R4
+Z244 w1670444084
+Z245 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUL.v
+Z246 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUL.v
+L0 1
+R8
+r1
+31
+Z247 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUL.v|
+R10
+Z248 n@m@u@l
+Z249 !s108 1670505587.681000
+Z250 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUL.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMulti
+Z251 !s100 4?INXZ>GBYDK`@KdY0P2U0
+Z252 IS:nn;S2h5R1YIc7<WRLfZ0
+Z253 VKkQXce5Z7gbRocE^ff7j_1
+R4
+Z254 w1670431676
+Z255 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Multi.v
+Z256 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Multi.v
+L0 1
+R8
+r1
+31
+Z257 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Multi.v|
+R10
+Z258 n@multi
+Z259 !s108 1670505587.738000
+Z260 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Multi.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX
+Z261 !s100 bLS91h5aXDFRPc?oa@1f60
+Z262 I^XZ;FGTJjSUli8F=EdLUX3
+Z263 VaOFIH<lhRE4I9VJ;^`?^<3
+R4
+Z264 w1669967923
+Z265 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUX.v
+Z266 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUX.v
+L0 1
+R8
+r1
+31
+Z267 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUX.v|
+R10
+Z268 n@m@u@x
+Z269 !s108 1670505587.793000
+Z270 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUX.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUXTRI
+Z271 !s100 QXo8cb_OLV:zU2iFOkON91
+Z272 Id>g35:>DS:M[oQeSR]1e:3
+Z273 V5M:<BhVFIjdC__0izbLiK3
+R4
+Z274 w1669971339
+Z275 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI.v
+Z276 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI.v
+L0 1
+R8
+r1
+31
+Z277 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI.v|
+R10
+Z278 n@m@u@x@t@r@i
+Z279 !s108 1670505587.848000
+Z280 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUXTRI6D
+Z281 !s100 n8;RnE4[4cOZjbTV49Li40
+Z282 I1JO3oORjecPLRDhXka@AK3
+Z283 V4]Ra:T28oBNoX?PRA7?J03
+R4
+Z284 w1669972885
+Z285 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI6D.v
+Z286 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI6D.v
+L0 1
+R8
+r1
+31
+Z287 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI6D.v|
+R10
+Z288 n@m@u@x@t@r@i6@d
+Z289 !s108 1670505587.901000
+Z290 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI6D.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vNextStageLogic
+Z291 !s100 lz?J3MhDmKDRE=?UmdiP22
+Z292 IC8DbLPk;g<7P@PITiALgd0
+Z293 V:a7c?CaVS:h6NWE1XMiYC1
+R4
+Z294 w1670412899
+Z295 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/NextStageLogic.v
+Z296 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/NextStageLogic.v
+L0 1
+R8
+r1
+31
+Z297 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/NextStageLogic.v|
+R10
+Z298 n@next@stage@logic
+Z299 !s108 1670505587.954000
+Z300 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/NextStageLogic.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vOR
+Z301 !s100 @E;g]YeEfY=;oEA4DkUg43
+Z302 IH^^7YSN6MC`2;m]b81O;n3
+Z303 VhQCFd7AcXlKWdO8fB:=l33
+R4
+Z304 w1669699330
+Z305 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR32.v
+Z306 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR32.v
+L0 1
+R8
+r1
+31
+Z307 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR32.v|
+R10
+n@o@r
+Z308 !s108 1670505588.063000
+Z309 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vOR16
+Z310 !s100 knVRAHXZ=oGZWOmLWiO@C3
+Z311 I5GFcX^dV4o4UAAQ2J5QK]0
+Z312 VMEBBhNWU9]b`:I?[@7Il_0
+R4
+Z313 w1669699364
+Z314 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR16.v
+Z315 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR16.v
+L0 1
+R8
+r1
+31
+Z316 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR16.v|
+R10
+Z317 n@o@r16
+Z318 !s108 1670505588.009000
+Z319 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR16.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vQuotientwire
+Z320 !s100 a@2Nj8BncK@cggEWH;DC82
+Z321 I7ZblL`SPU[939l^mTXPz_2
+Z322 Vomn[UnMXRY<Ll3]=gVHAk1
+R4
+Z323 w1670311052
+Z324 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Quotientwire.v
+Z325 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Quotientwire.v
+L0 1
+R8
+r1
+31
+Z326 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Quotientwire.v|
+R10
+Z327 n@quotientwire
+Z328 !s108 1670505588.121000
+Z329 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Quotientwire.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREG
+Z330 !s100 R8XmY;KfNObSN4GU[XcN11
+Z331 IW9ZF0Ff^l6MlD^HURmQjf2
+Z332 VYR5SDoNha>]S_QN@`VQQ22
+R4
+Z333 w1669923007
+Z334 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG.v
+Z335 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG.v
+L0 1
+R8
+r1
+31
+Z336 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG.v|
+R10
+Z337 n@r@e@g
+Z338 !s108 1670505588.171000
+Z339 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREG16bit
+Z340 !s100 kN9J>j5JzffR>GI8T:V@Z0
+Z341 IRO>m>ce?TSBF4@dVcljLC2
+Z342 VR5[LKfb`0X_BHj3S?PSF53
+R4
+Z343 w1669967230
+Z344 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit.v
+Z345 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit.v
+L0 1
+R8
+r1
+31
+Z346 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit.v|
+R10
+Z347 n@r@e@g16bit
+Z348 !s108 1670505588.335000
+Z349 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREG16bit_Rst1
+Z350 !s100 KmGRVHEdzNMDCQL3gW0bY2
+Z351 I[T4SATI4Zb;CN`h?QXkZ42
+Z352 VR[3YZL989o<W[]>YPV2Vg3
+R4
+Z353 w1670405901
+Z354 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit_Rst1.v
+Z355 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit_Rst1.v
+L0 1
+R8
+r1
+31
+Z356 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit_Rst1.v|
+R10
+Z357 n@r@e@g16bit_@rst1
+Z358 !s108 1670505588.389000
+Z359 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit_Rst1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREG32bit
+Z360 !s100 i<PmN_bl9QanYRi^jGd4_3
+Z361 Ig4_1ebdS[KHZZLDh@^mf[2
+Z362 VaE4;?42W60khdA:7>NLI42
+R4
+Z363 w1669699582
+Z364 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG32bit.v
+Z365 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG32bit.v
+L0 1
+R8
+r1
+31
+Z366 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG32bit.v|
+R10
+Z367 n@r@e@g32bit
+Z368 !s108 1670505588.442000
+Z369 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG32bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREG8bit
+Z370 !s100 iAKLT<HoXbK3kYIzG9Fbi0
+Z371 Imd:QfT0TbA3E==1>Q4]U71
+Z372 V8FVZB3_IXmT4HSTmJSg?Z1
+R4
+Z373 w1669922924
+Z374 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG8bit.v
+Z375 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG8bit.v
+L0 1
+R8
+r1
+31
+Z376 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG8bit.v|
+R10
+Z377 n@r@e@g8bit
+Z378 !s108 1670505588.280000
+Z379 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG8bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREG_RS1
+Z380 !s100 ^7EAY8Z39nmQ^hCJT4Nd13
+Z381 IXJkiX4m;]e]6gaHXZXME81
+Z382 VO`JZBX9N9177^]IOYE_6o1
+R4
+Z383 w1669727261
+Z384 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG_RS1.v
+Z385 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG_RS1.v
+L0 1
+R8
+r1
+31
+Z386 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG_RS1.v|
+R10
+Z387 n@r@e@g_@r@s1
+Z388 !s108 1670505588.226000
+Z389 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG_RS1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegAT
+Z390 !s100 dTg5RHLF061[1[3mMSlFl3
+Z391 IeTB?04_iIeikA:_OJ6gzC2
+Z392 VJ5d[IWW;V;ZRlJZN@JXU33
+R4
+Z393 w1669446488
+Z394 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegAT.v
+Z395 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegAT.v
+L0 1
+R8
+r1
+31
+Z396 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegAT.v|
+R10
+Z397 n@reg@a@t
+Z398 !s108 1670505588.499000
+Z399 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegAT.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREGISTER
+Z400 !s100 jmI`7nHo84XE0Q`TDC:lY2
+Z401 IC6^A1O:kk9jMlYlm=L3_b3
+Z402 V7TZjezOmR=2_l94zkD4FK0
+R4
+Z403 w1669923009
+Z404 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REGISTER.v
+Z405 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REGISTER.v
+L0 1
+R8
+r1
+31
+Z406 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REGISTER.v|
+R10
+Z407 n@r@e@g@i@s@t@e@r
+Z408 !s108 1670505588.554000
+Z409 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REGISTER.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegP
+Z410 !s100 N@LoSf:@NUdh84VX`_aH63
+Z411 IF1Sg7J2TTkAgmKcL1cISf3
+Z412 VoNnj31k;2c2<0gRo@JRUl1
+R4
+Z413 w1669445493
+Z414 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegP.v
+Z415 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegP.v
+L0 1
+R8
+r1
+31
+Z416 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegP.v|
+R10
+Z417 n@reg@p
+Z418 !s108 1670505588.617000
+Z419 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegP.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegQB
+Z420 !s100 Y=F847=H;>dXaa:fcDI582
+Z421 IbCKDao`aI[z]0oe6G`ol23
+Z422 VPBNcYchUz@n_ljooHg0Ch1
+R4
+Z423 w1669490317
+Z424 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegQB.v
+Z425 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegQB.v
+L0 1
+R8
+r1
+31
+Z426 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegQB.v|
+R10
+Z427 n@reg@q@b
+Z428 !s108 1670505588.673000
+Z429 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegQB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegS
+Z430 !s100 V`;]MUZPm^eN=zI2MH^?W2
+Z431 ImA9<P^8`Z9MHlEULE4i9Y0
+Z432 V5<<JjhCQS5h78lB1J]bJX3
+R4
+Z433 w1669446101
+Z434 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegS.v
+Z435 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegS.v
+L0 1
+R8
+r1
+31
+Z436 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegS.v|
+R10
+Z437 n@reg@s
+Z438 !s108 1670505588.737000
+Z439 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegS.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregX
+Z440 !s100 5?^d4h_3TOBX^L<5T2`4W3
+Z441 IHYFa`0>bQH6YGk]6QN5nZ0
+Z442 V=YFdKWo87ciTmfR]16aFJ3
+R4
+Z443 w1669446380
+Z444 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/regX.v
+Z445 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/regX.v
+L0 1
+R8
+r1
+31
+Z446 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/regX.v|
+R10
+Z447 nreg@x
+Z448 !s108 1670505588.786000
+Z449 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/regX.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSUB
+Z450 !s100 V^IBlAe0W0AU3VOC3Yfm?1
+Z451 ImSlgdU=ni=k;_adgAU6U^3
+Z452 V9VAI]5eCO76z?ncEhLQj>0
+R4
+Z453 w1669564973
+Z454 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/SUB.v
+Z455 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/SUB.v
+L0 2
+R8
+r1
+31
+Z456 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/SUB.v|
+R10
+Z457 n@s@u@b
+!i10b 1
+!s85 0
+Z458 !s108 1670505588.841000
+Z459 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/SUB.v|
+!s101 -O0
+vtb_lnx
+Z460 !s100 QlnT4R;SAc>^SE5RH:4^M0
+Z461 IJ9ieWHLkRLPghOKaI`i4H3
+Z462 VY]0d4@X:G>:16<3U5PCE:1
+R4
+Z463 w1670503105
+Z464 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v
+Z465 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v
+L0 3
+R8
+r1
+31
+Z466 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v|
+R10
+Z467 !s108 1670505586.173000
+Z468 !s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTristate
+!i10b 1
+Z469 !s100 >=kI4GQUXF3io85jVNY^k3
+Z470 I4ikDW7z9iW?]_HkU1A`P^0
+Z471 VIkzWfH6`I;ea6dP5K>[WR0
+R4
+Z472 w1669922773
+Z473 8C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Tristate.v
+Z474 FC:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Tristate.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1670505588.892000
+!s107 C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Tristate.v|
+Z475 !s90 -reportprogress|300|-work|work|C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Tristate.v|
+!s101 -O0
+R10
+Z476 n@tristate

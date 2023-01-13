@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vSquareroot
+Z1 I3S<Hk^Q1H[n^7AaZZKNDO1
+Z2 VYVZGH:ah>TN=V5Pb4RDO53
+Z3 dD:\Data_pipeline_Beha
+Z4 w1666002668
+Z5 8D:/Data_pipeline_Beha/simulation/modelsim/Data_pipeline_Beha.vo
+Z6 FD:/Data_pipeline_Beha/simulation/modelsim/Data_pipeline_Beha.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/simulation/modelsim/Data_pipeline_Beha.vo|
+Z9 o-work work -O0
+Z10 n@squareroot
+!i10b 1
+Z11 !s100 QdzPzJ0hQ;QG6LIQM06BE1
+!s85 0
+Z12 !s108 1666002805.469000
+Z13 !s107 D:/Data_pipeline_Beha/simulation/modelsim/Data_pipeline_Beha.vo|
+!s101 -O0
+vtest_Squareroot
+!i10b 1
+!s100 NB`cNz82697N7R@O?[dKo3
+IW1eU?KV[g_E685XCH0?k>2
+Z14 V9kBDn;`8e_;=Ng9VCYnec2
+R3
+w1666002809
+8D:/Data_pipeline_Beha/testbench.v
+FD:/Data_pipeline_Beha/testbench.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1666002809.206000
+!s107 D:/Data_pipeline_Beha/testbench.v|
+!s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/testbench.v|
+!s101 -O0
+R9
+Z15 ntest_@squareroot

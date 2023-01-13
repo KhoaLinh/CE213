@@ -1,0 +1,22 @@
+module OutputLogic(CLK, RESET, DONE, state, NSR, NSY, NSG, EWR, EWY, EWG, zero, delaymode);
+input CLK, RESET, DONE;
+input[2:0] state;
+output NSR, NSY, NSG, EWR, EWY, EWG;
+output zero;
+output delaymode;
+//signal
+assign NSR =(~state[1])? 1'b1: 1'b0;
+assign NSY =(state[1]&state[0])? 1'b1: 1'b0;
+assign NSG =(state[1]&~state[0])? 1'b1: 1'b0;
+assign EWR =(state[1])? 1'b1: 1'b0;
+assign EWY =(~state[1]&state[0])? 1'b1: 1'b0;
+assign EWG =(~state[1]&~state[0])? 1'b1: 1'b0;
+// resetcounter, delayselect
+assign resetcounter = DONE;
+assign delayselect = DONE & (~state[2] & ~state[1] & ~state[0] | ~state[2] & state[1] & state[0]); // DONE * (S0 +S3)
+// mealy to moore
+register reg0 (CLK, RESET, 1'b1, resetcounter, zero);
+register reg1 (CLK, RESET, 1'b1, delayselect, delaymode);
+
+
+endmodule

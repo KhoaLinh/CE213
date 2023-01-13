@@ -1,0 +1,37 @@
+module Datapath(IN, OUT, CLK, RESET, SEL, LOAD);
+input [79:0] IN;
+input CLK, RESET;
+input [11:0]SEL;
+input [6:0] LOAD;
+output [79:0] OUT;
+
+wire [79:0] bus0, bus1, bus2, bus3, bus4, bus5, bus6, bus7, bus8, bus9, bus10, bus11, bus12, bus13, bus14, bus15, bus16, bus17, bus18;
+
+// Datapath
+// 1. Register File
+RegAT REG0 (CLK, RESET, LOAD[0], IN, bus0);
+RegAT REG1 (CLK, RESET, LOAD[1], bus4, bus5);
+RegAT REG2 (CLK, RESET, LOAD[2], bus8, bus9);
+RegAT REG3 (CLK, RESET, LOAD[3], bus10, bus12);
+RegAT REG4 (CLK, RESET, LOAD[4], bus14, bus15);
+RegAT REG5 (CLK, RESET, LOAD[5], bus17, bus18);
+
+// 2. MUX
+MUX MUX0 (bus6, bus7, bus8, SEL[0]);
+
+// 3. Tristate
+Tristate TRISTATE0 (bus0, SEL[0], bus1);
+Tristate TRISTATE1 (bus5, SEL[1], bus2);
+Tristate TRISTATE2 (bus5, SEL[2], bus3);
+Tristate TRISTATE3 (bus9, SEL[3], bus2);
+Tristate TRISTATE4 (bus9, SEL[4], bus3);
+Tristate TRISTATE5 (bus12, SEL[5], bus3);
+Tristate TRISTATE6 (bus13, SEL[6], bus2);
+Tristate TRISTATE7 (bus15, SEL[7], bus3);
+Tristate TRISTATE8 (bus18, SEL[8], bus2);
+Tristate TRISTATE9 (bus16, SEL[9], bus3);
+
+// 4. ALU
+CAS80bit ALU0  
+
+endmodule

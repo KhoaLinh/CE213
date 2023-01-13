@@ -1,0 +1,15 @@
+D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/Traffic.vo {1 {vlog -work work D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/Traffic.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
+
+} {} {}} D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/testbench.v {1 {vlog -work work D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_traffic
+
+Top level modules:
+	tb_traffic
+
+} {} {}}

@@ -1,0 +1,36 @@
+C:/Users/ADMIN/workspace/cuoiky/ALU.v {1 {vlog -work work C:/Users/ADMIN/workspace/cuoiky/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/ADMIN/workspace/cuoiky/mux.v {1 {vlog -work work C:/Users/ADMIN/workspace/cuoiky/mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/Users/ADMIN/workspace/cuoiky/Registers.v {1 {vlog -work work C:/Users/ADMIN/workspace/cuoiky/Registers.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Registers
+
+Top level modules:
+	Registers
+
+} {} {}} C:/Users/ADMIN/workspace/cuoiky/sign_extend.v {1 {vlog -work work C:/Users/ADMIN/workspace/cuoiky/sign_extend.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} C:/Users/ADMIN/workspace/cuoiky/DataMem.v {1 {vlog -work work C:/Users/ADMIN/workspace/cuoiky/DataMem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DataMem
+
+Top level modules:
+	DataMem
+
+} {} {}}

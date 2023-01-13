@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab2_CE221">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lpm_counter_8bit|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_7oi.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

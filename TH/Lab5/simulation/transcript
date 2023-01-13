@@ -1,0 +1,17 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {C:/Users/KHOA LINH/Desktop/Final/Lab5/simulation/Tb_Lab5.mpf} 
+# Loading project Tb_Lab5
+# Compile of Lab5.v was successful.
+# Compile of RAM_lab5.v was successful.
+# Compile of tb_RAM_lab5.v was successful.
+# Compile of tb_seffchecking.v was successful.
+# Compile of tb_seftcheckingRAM.v was successful.
+# Compile of testCounter.v was successful.
+# Compile of ROM_lab5.v was successful.
+# Compile of tb_ROM_lab5.v was successful.
+# Compile of ROM.v was successful.
+# 9 compiles, 0 failed with no errors. 
+vsim -gui work.tb_RAM_lab5
+# vsim -gui work.tb_RAM_lab5 
+# Loading work.tb_RAM_lab5
+# Loading work.RAM_lab5

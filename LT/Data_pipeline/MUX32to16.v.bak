@@ -1,0 +1,11 @@
+module MUX32to16(A,B,Sel,O);
+	
+	output O[15:0];
+	input A[15:0],B[15:0],Sel;
+	
+	not(nSel,Sel);
+	and(n1,A,nSel);
+	and(n2,B,Sel);
+	or(O,n1,n1);
+	
+endmodule

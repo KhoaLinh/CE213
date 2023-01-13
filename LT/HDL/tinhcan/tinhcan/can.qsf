@@ -1,0 +1,141 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 21:06:47  June 06, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		can_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY datapath3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:06:47  JUNE 06, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE FULL_ADDER.bdf
+set_global_assignment -name BDF_FILE ADDER.bdf
+set_global_assignment -name BDF_FILE ADD.bdf
+set_global_assignment -name BDF_FILE can.bdf
+set_global_assignment -name BDF_FILE Reg.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name BDF_FILE Add4bit.bdf
+set_global_assignment -name BDF_FILE Sub4bit.bdf
+set_global_assignment -name BDF_FILE Abs.bdf
+set_global_assignment -name BDF_FILE Shifter3bit.bdf
+set_global_assignment -name BDF_FILE Shifter1bit.bdf
+set_global_assignment -name BDF_FILE Selecter.bdf
+set_global_assignment -name BDF_FILE RSLEA.bdf
+set_global_assignment -name BDF_FILE RAGBTGPA.bdf
+set_global_assignment -name BDF_FILE MaxAbs.bdf
+set_global_assignment -name BDF_FILE AddSub.bdf
+set_global_assignment -name BDF_FILE AbsMinSubAdd.bdf
+set_global_assignment -name BDF_FILE SRADGBPP.bdf
+set_global_assignment -name BDF_FILE CMISRAD.bdf
+set_global_assignment -name BDF_FILE MUX2TO1.bdf
+set_global_assignment -name BDF_FILE SHIFT1.bdf
+set_global_assignment -name BDF_FILE SHIFT3.bdf
+set_global_assignment -name BDF_FILE ADD_8BIT.bdf
+set_global_assignment -name BDF_FILE SUB_8BIT.bdf
+set_global_assignment -name BDF_FILE MUX2TO1_8BIT.bdf
+set_global_assignment -name BDF_FILE MAX_8BIT.bdf
+set_global_assignment -name BDF_FILE MIN_8BIT.bdf
+set_global_assignment -name BDF_FILE MUX2TO1_3BIT.bdf
+set_global_assignment -name BDF_FILE MUX2TO1_4BIT.bdf
+set_global_assignment -name BDF_FILE MUX4TO1_8BIT.bdf
+set_global_assignment -name BDF_FILE MUX8TO1_8BIT.bdf
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveformtest.vwf
+set_global_assignment -name BDF_FILE SUB_7BIT.bdf
+set_global_assignment -name BDF_FILE MUX2TO1_7BIT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE datapath1.vwf
+set_global_assignment -name BDF_FILE AND_8BIT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name BDF_FILE ADDSUB.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE datapath2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE datapath3.vwf
+set_global_assignment -name BDF_FILE datapath0.bdf
+set_global_assignment -name BDF_FILE datapath1.bdf
+set_global_assignment -name BDF_FILE datapath2.bdf
+set_global_assignment -name BDF_FILE datapath3.bdf
+set_global_assignment -name BDF_FILE D1.bdf
+set_global_assignment -name BDF_FILE D2.bdf
+set_global_assignment -name BDF_FILE D0.bdf
+set_global_assignment -name BDF_FILE D.bdf
+set_global_assignment -name BDF_FILE FSM.bdf
+set_global_assignment -name BDF_FILE LOAD_C0.bdf
+set_global_assignment -name BDF_FILE S0_C0.bdf
+set_global_assignment -name BDF_FILE S1_C0.bdf
+set_global_assignment -name BDF_FILE S2_C0.bdf
+set_global_assignment -name BDF_FILE Controller0.bdf
+set_global_assignment -name BDF_FILE RSLE.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
+set_global_assignment -name BDF_FILE LOAD_C1.bdf
+set_global_assignment -name BDF_FILE S0_C1.bdf
+set_global_assignment -name BDF_FILE S1_C1.bdf
+set_global_assignment -name BDF_FILE controller1.bdf
+set_global_assignment -name BDF_FILE RSCG.bdf
+set_global_assignment -name BDF_FILE LOAD_C2.bdf
+set_global_assignment -name BDF_FILE C_C2.bdf
+set_global_assignment -name BDF_FILE S_C2.bdf
+set_global_assignment -name BDF_FILE controller2.bdf
+set_global_assignment -name BDF_FILE FUS.bdf
+set_global_assignment -name BDF_FILE LOAD_C3.bdf
+set_global_assignment -name BDF_FILE C_C3.bdf
+set_global_assignment -name BDF_FILE B0_C3.bdf
+set_global_assignment -name BDF_FILE B23_C3.bdf
+set_global_assignment -name BDF_FILE Controller3.bdf
+set_global_assignment -name BDF_FILE BS.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform7.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Quartus/BAOCAOCK/tinhcan/Waveform5.vwf"

@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Data_pipeline_Beha\simulation\modelsim
+vtb_traffic
+!i10b 1
+!s100 ^_@OiS>z_F=<0j<mGn0LG3
+IYG1X>R2z20E^C_j5b_9<F3
+V;8idiiC]EI66;oH:XonE13
+Z1 dD:\CE213-TKHTSHDL\LT\Traffic\simulation\modelsim
+w1666250077
+8D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/testbench.v
+FD:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/testbench.v
+L0 8
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1666250089.195000
+!s107 D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/testbench.v|
+!s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/testbench.v|
+!s101 -O0
+Z3 o-work work -O0
+vtraffic_light
+Z4 I2FeBfbh9[mQQV:FE]2DOa0
+Z5 Vo0@PZ<fQ2?:^Pib@^K_la1
+R1
+Z6 w1666249900
+Z7 8D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/Traffic.vo
+Z8 FD:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/Traffic.vo
+L0 31
+R2
+r1
+31
+R3
+!i10b 1
+Z9 !s100 K3KB4@I8Ql`136<L0YaX`3
+!s85 0
+Z10 !s108 1666250089.141000
+Z11 !s107 D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/Traffic.vo|
+Z12 !s90 -reportprogress|300|-work|work|D:/CE213-TKHTSHDL/LT/Traffic/simulation/modelsim/Traffic.vo|
+!s101 -O0

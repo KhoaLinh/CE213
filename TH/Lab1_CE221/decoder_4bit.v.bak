@@ -1,0 +1,2 @@
+module decoder_4bit(out0,out1,in);
+	

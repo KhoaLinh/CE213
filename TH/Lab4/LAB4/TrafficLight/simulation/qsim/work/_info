@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\quartus\HDL\coDiem\LAB4\TrafficLight\simulation\qsim
+vFSM
+Z1 IQBb`jYL38aALIcLa`TcA21
+Z2 VC?9<llBhzjjfcUoBoh]N21
+Z3 dD:\quartus\HDL\coDiem\LAB4\TrafficLight\simulation\qsim
+Z4 w1671293302
+Z5 8TL.vo
+Z6 FTL.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|TL.vo|
+Z9 o-work work -O0
+Z10 n@f@s@m
+Z11 !s100 ZK1ClD69:;iSzMAfkM7U02
+Z12 !s108 1671293302.888000
+Z13 !s107 TL.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vFSM_vlg_check_tst
+Z14 !s100 WA=iCT96Hzdgm:]4L79iJ2
+Z15 I8I3Nk^7WH8G<STUS1m4^P1
+Z16 VI3McDA_zK3CGhY]ef>07S1
+R3
+Z17 w1671293301
+Z18 8TL.vt
+Z19 FTL.vt
+L0 61
+R7
+r1
+31
+Z20 !s108 1671293302.940000
+Z21 !s107 TL.vt|
+Z22 !s90 -work|work|TL.vt|
+R9
+Z23 n@f@s@m_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vFSM_vlg_sample_tst
+Z24 !s100 jk=aiF0RznE:00?FSZ5U<3
+Z25 INWNdbnN0XmThGTMc1KL_90
+Z26 VQL0OncgoE;HRg605Z`>h02
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+31
+R20
+R21
+R22
+R9
+Z27 n@f@s@m_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vFSM_vlg_vec_tst
+Z28 !s100 >]ll`flOJIWJdd0cJg5na0
+Z29 IV@W06a5=R@m96VZi]`nHZ3
+Z30 VQXU`if7O5mNhI[hi^JE;M3
+R3
+R17
+R18
+R19
+Z31 L0 407
+R7
+r1
+31
+R20
+R21
+R22
+R9
+Z32 n@f@s@m_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vTL
+Z33 !s100 WGX;bE0eVQLC;3W3WDeH62
+Z34 Ii>Kn3KnQgAd^g=ZMd5Wz10
+Z35 V_XhWDD6@E7HIfOOKheE^J0
+R3
+Z36 w1671298076
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+n@t@l
+!i10b 1
+!s85 0
+Z37 !s108 1671298076.796000
+R13
+!s101 -O0
+vTL_vlg_check_tst
+!i10b 1
+Z38 !s100 ?@DMBP1ID6koS1O2Yn[:30
+Z39 I9=`XCLXnJ]8_UfkQeK;NU0
+Z40 Vg0Kg5Lg^9lA5jE@DGjN[l3
+R3
+Z41 w1671298075
+R18
+R19
+L0 59
+R7
+r1
+!s85 0
+31
+Z42 !s108 1671298076.846000
+Z43 !s107 TL.vt|
+R22
+!s101 -O0
+R9
+Z44 n@t@l_vlg_check_tst
+vTL_vlg_sample_tst
+!i10b 1
+Z45 !s100 5F<<ok]hldT_P]:=LDZ4^2
+Z46 I^^<omHmM7LzP`3jnc35921
+Z47 V>GoOjAT5^:?FHI8f[OGhH3
+R3
+R41
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R42
+R43
+R22
+!s101 -O0
+R9
+Z48 n@t@l_vlg_sample_tst
+vTL_vlg_vec_tst
+!i10b 1
+Z49 !s100 `GGeH>cPRDmcRUkbEz:=]3
+Z50 I5b2USb1d7Gbkj@NMhdbRN3
+Z51 VZ^2a1_C9bOiIE=_gSUOi_3
+R3
+R41
+R18
+R19
+Z52 L0 289
+R7
+r1
+!s85 0
+31
+R42
+R43
+R22
+!s101 -O0
+R9
+Z53 n@t@l_vlg_vec_tst

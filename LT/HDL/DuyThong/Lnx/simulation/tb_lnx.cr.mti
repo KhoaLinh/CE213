@@ -1,0 +1,337 @@
+{C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/tb_lnx.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_lnx
+
+Top level modules:
+	tb_lnx
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUXTRI
+
+Top level modules:
+	MUXTRI
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegP.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegP.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegP
+
+Top level modules:
+	RegP
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR32.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR32.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module OR
+
+Top level modules:
+	OR
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetP.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetP.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module GetP
+
+Top level modules:
+	GetP
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Tristate.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Tristate.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tristate
+
+Top level modules:
+	Tristate
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/HA.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/HA.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG8bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG8bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG8bit
+
+Top level modules:
+	REG8bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divisorwire.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divisorwire.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Divisorwire
+
+Top level modules:
+	Divisorwire
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Quotientwire.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Quotientwire.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Quotientwire
+
+Top level modules:
+	Quotientwire
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS32bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS32bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CAS32bit
+
+Top level modules:
+	CAS32bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS16bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS16bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CAS16bit
+
+Top level modules:
+	CAS16bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetWait.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/GetWait.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module GetWait
+
+Top level modules:
+	GetWait
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit_Rst1.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit_Rst1.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG16bit_Rst1
+
+Top level modules:
+	REG16bit_Rst1
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CAS
+
+Top level modules:
+	CAS
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/FA.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/FA.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/COUNTER.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/COUNTER.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module COUNTER
+
+Top level modules:
+	COUNTER
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR16.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/OR16.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module OR16
+
+Top level modules:
+	OR16
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegQB.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegQB.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegQB
+
+Top level modules:
+	RegQB
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Multi.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Multi.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Multi
+
+Top level modules:
+	Multi
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REGISTER.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REGISTER.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REGISTER
+
+Top level modules:
+	REGISTER
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUL.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUL.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUL
+
+Top level modules:
+	MUL
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG
+
+Top level modules:
+	REG
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ADD.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ADD.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ADD
+
+Top level modules:
+	ADD
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG_RS1.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG_RS1.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG_RS1
+
+Top level modules:
+	REG_RS1
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS8bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS8bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CAS8bit
+
+Top level modules:
+	CAS8bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CounterCheck.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CounterCheck.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CounterCheck
+
+Top level modules:
+	CounterCheck
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Dividendwire.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Dividendwire.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Dividendwire
+
+Top level modules:
+	Dividendwire
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUX.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUX.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/AndRow.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/AndRow.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module AndRow
+
+Top level modules:
+	AndRow
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI6D.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/MUXTRI6D.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUXTRI6D
+
+Top level modules:
+	MUXTRI6D
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divi.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Divi.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Divi
+
+Top level modules:
+	Divi
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/regX.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/regX.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module regX
+
+Top level modules:
+	regX
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG32bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG32bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG32bit
+
+Top level modules:
+	REG32bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/DIV.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/DIV.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DIV
+
+Top level modules:
+	DIV
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Controller.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Controller.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/REG16bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG16bit
+
+Top level modules:
+	REG16bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Machine.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Machine.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Machine
+
+Top level modules:
+	Machine
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS80bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS80bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CAS80bit
+
+Top level modules:
+	CAS80bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Datapath.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/Datapath.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/NextStageLogic.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/NextStageLogic.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module NextStageLogic
+
+Top level modules:
+	NextStageLogic
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegS.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegS.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegS
+
+Top level modules:
+	RegS
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ControllerDecoder.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/ControllerDecoder.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ControllerDecoder
+
+Top level modules:
+	ControllerDecoder
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/lnx.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/lnx.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lnx
+
+Top level modules:
+	lnx
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/SUB.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/SUB.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SUB
+
+Top level modules:
+	SUB
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegAT.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/RegAT.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegAT
+
+Top level modules:
+	RegAT
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS7bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS7bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CAS7bit
+
+Top level modules:
+	CAS7bit
+
+} {} {}} {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS17bit.v} {1 {vlog -work work {C:/Users/KHOA LINH/Desktop/DuyThong/Lnx/CAS17bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CAS17bit
+
+Top level modules:
+	CAS17bit
+
+} {} {}}

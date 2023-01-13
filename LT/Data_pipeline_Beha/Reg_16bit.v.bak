@@ -1,0 +1,12 @@
+module Reg_16bit(out,in,load);
+	output [15:0]out;
+	input [15:0]in;
+	input load;
+	
+	reg [15:0]o;
+	
+	always @(in,load) begin
+		if (load==1)
+			out = in;
+	end
+endmodule

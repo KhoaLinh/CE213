@@ -1,0 +1,120 @@
+|traffic_light
+start => FR.OE
+start => FY.OE
+start => FG.OE
+start => HR.OE
+start => HY.OE
+start => HG.OE
+start => state_tri[0].OE
+start => state_tri[1].OE
+reset => reset.IN1
+clk => clk.IN3
+c => c.IN2
+HG <= HG.DB_MAX_OUTPUT_PORT_TYPE
+HY <= HY.DB_MAX_OUTPUT_PORT_TYPE
+HR <= HR.DB_MAX_OUTPUT_PORT_TYPE
+FG <= FG.DB_MAX_OUTPUT_PORT_TYPE
+FY <= FY.DB_MAX_OUTPUT_PORT_TYPE
+FR <= FR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|FSM:FSM
+full => always1.IN0
+full => Mux0.IN3
+full => Mux1.IN3
+full => Mux0.IN2
+full => Mux1.IN1
+full => Mux1.IN2
+c => always1.IN1
+clk => next_state[0]~reg0.CLK
+clk => next_state[1]~reg0.CLK
+reset => next_state[0]~reg0.ACLR
+reset => next_state[1]~reg0.ACLR
+next_state[0] <= next_state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+next_state[1] <= next_state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|Counter12bit:counter
+load_number[0] => count_next_beforereg[0].DATAB
+load_number[1] => count_next_beforereg[1].DATAB
+load_number[2] => count_next_beforereg[2].DATAB
+load_number[3] => count_next_beforereg[3].DATAB
+load_number[4] => count_next_beforereg[4].DATAB
+load_number[5] => count_next_beforereg[5].DATAB
+load_number[6] => count_next_beforereg[6].DATAB
+load_number[7] => count_next_beforereg[7].DATAB
+load_number[8] => count_next_beforereg[8].DATAB
+load_number[9] => count_next_beforereg[9].DATAB
+load_number[10] => count_next_beforereg[10].DATAB
+load_number[11] => count_next_beforereg[11].DATAB
+load_number[12] => count_next_beforereg[12].DATAB
+mode => count_next_beforereg[12].OUTPUTSELECT
+mode => count_next_beforereg[11].OUTPUTSELECT
+mode => count_next_beforereg[10].OUTPUTSELECT
+mode => count_next_beforereg[9].OUTPUTSELECT
+mode => count_next_beforereg[8].OUTPUTSELECT
+mode => count_next_beforereg[7].OUTPUTSELECT
+mode => count_next_beforereg[6].OUTPUTSELECT
+mode => count_next_beforereg[5].OUTPUTSELECT
+mode => count_next_beforereg[4].OUTPUTSELECT
+mode => count_next_beforereg[3].OUTPUTSELECT
+mode => count_next_beforereg[2].OUTPUTSELECT
+mode => count_next_beforereg[1].OUTPUTSELECT
+mode => count_next_beforereg[0].OUTPUTSELECT
+clk => count_next[0]~reg0.CLK
+clk => count_next[1]~reg0.CLK
+clk => count_next[2]~reg0.CLK
+clk => count_next[3]~reg0.CLK
+clk => count_next[4]~reg0.CLK
+clk => count_next[5]~reg0.CLK
+clk => count_next[6]~reg0.CLK
+clk => count_next[7]~reg0.CLK
+clk => count_next[8]~reg0.CLK
+clk => count_next[9]~reg0.CLK
+clk => count_next[10]~reg0.CLK
+clk => count_next[11]~reg0.CLK
+clk => count_next[12]~reg0.CLK
+count_next[0] <= count_next[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[1] <= count_next[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[2] <= count_next[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[3] <= count_next[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[4] <= count_next[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[5] <= count_next[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[6] <= count_next[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[7] <= count_next[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[8] <= count_next[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[9] <= count_next[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[10] <= count_next[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[11] <= count_next[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_next[12] <= count_next[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+full <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|getSignal:gS
+state[0] => Equal0.IN1
+state[0] => Equal1.IN0
+state[0] => Equal2.IN1
+state[0] => Equal3.IN1
+state[1] => Equal0.IN0
+state[1] => Equal1.IN1
+state[1] => Equal2.IN0
+state[1] => Equal3.IN0
+HG <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+HY <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+HR <= HR.DB_MAX_OUTPUT_PORT_TYPE
+FG <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+FY <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+FR <= FR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_light|getMode:gM
+state[0] => Decoder0.IN1
+state[1] => Decoder0.IN0
+full => Decoder0.IN2
+c => Decoder0.IN3
+clk => delay_reg~reg0.CLK
+clk => mode_reg~reg0.CLK
+mode_reg <= mode_reg~reg0.DB_MAX_OUTPUT_PORT_TYPE
+delay_reg <= delay_reg~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

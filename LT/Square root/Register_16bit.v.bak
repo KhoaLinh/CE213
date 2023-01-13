@@ -1,0 +1,8 @@
+module Register_16bit (Q, D, Clock);
+	output [15:0]Q;
+	input [15:0]D; 
+	input Clock;
+	
+	D_flipflop Reg16bit[15:0] (Q, D, Clock)
+
+endmodule

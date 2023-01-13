@@ -1,0 +1,17 @@
+module MUX2to1(o,a,b,sel);
+	
+	output o;
+	input a;
+	input b;
+	input sel;
+	
+	wire nsel;
+	wire n1;
+	wire n2;
+	
+	not(nsel,sel);
+	and and_gate1(n1,a,nsel);
+	and and_gate2(n2,b,sel);
+	or or_gate1(o,n1,n2);
+	
+endmodule

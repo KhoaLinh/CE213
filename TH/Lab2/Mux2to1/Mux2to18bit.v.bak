@@ -1,0 +1,10 @@
+module Mux2to18bit(x,y,s,m);
+output [7:0]m;
+input [7:0]x;
+input [7:0]y
+input s;
+
+
+	Mux2to1 Mux2to18bit[7:0](x,y,s,m);
+	
+endmodule

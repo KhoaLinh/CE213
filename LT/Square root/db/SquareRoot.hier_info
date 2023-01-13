@@ -1,0 +1,423 @@
+|Controller
+Q[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+OE[0] <= Controller_Decoder:Decoder.port0
+OE[1] <= Controller_Decoder:Decoder.port0
+OE[2] <= Controller_Decoder:Decoder.port0
+OE[3] <= Controller_Decoder:Decoder.port0
+OE[4] <= Controller_Decoder:Decoder.port0
+OE[5] <= Controller_Decoder:Decoder.port0
+OE[6] <= Controller_Decoder:Decoder.port0
+OE[7] <= Controller_Decoder:Decoder.port0
+OE[8] <= Controller_Decoder:Decoder.port0
+OE[9] <= Controller_Decoder:Decoder.port0
+OE[10] <= Controller_Decoder:Decoder.port0
+OE[11] <= Controller_Decoder:Decoder.port0
+Op1[0] <= Controller_Decoder:Decoder.port1
+Op1[1] <= Controller_Decoder:Decoder.port1
+Op2[0] <= Controller_Decoder:Decoder.port2
+Op2[1] <= Controller_Decoder:Decoder.port2
+R5 <= Controller_Decoder:Decoder.port3
+R4 <= Controller_Decoder:Decoder.port4
+R3 <= Controller_Decoder:Decoder.port5
+R2 <= Controller_Decoder:Decoder.port6
+R1 <= Controller_Decoder:Decoder.port7
+Start => Start.IN1
+Reset => Reset.IN1
+Clk => Clk.IN4
+
+
+|Controller|d_ff_struct:Dff0
+q <= not_gate:notq.port0
+d => d.IN2
+clk => clk.IN2
+
+
+|Controller|d_ff_struct:Dff0|not_gate:not1
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|d_ff_struct:Dff0|nand_gate:nand1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff0|nand_gate:nand2
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff0|nand_gate:nand3
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff0|nand_gate:nand4
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff0|not_gate:notq
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|d_ff_struct:Dff1
+q <= not_gate:notq.port0
+d => d.IN2
+clk => clk.IN2
+
+
+|Controller|d_ff_struct:Dff1|not_gate:not1
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|d_ff_struct:Dff1|nand_gate:nand1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff1|nand_gate:nand2
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff1|nand_gate:nand3
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff1|nand_gate:nand4
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff1|not_gate:notq
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|d_ff_struct:Dff2
+q <= not_gate:notq.port0
+d => d.IN2
+clk => clk.IN2
+
+
+|Controller|d_ff_struct:Dff2|not_gate:not1
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|d_ff_struct:Dff2|nand_gate:nand1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff2|nand_gate:nand2
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff2|nand_gate:nand3
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff2|nand_gate:nand4
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff2|not_gate:notq
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|d_ff_struct:Dff3
+q <= not_gate:notq.port0
+d => d.IN2
+clk => clk.IN2
+
+
+|Controller|d_ff_struct:Dff3|not_gate:not1
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|d_ff_struct:Dff3|nand_gate:nand1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff3|nand_gate:nand2
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff3|nand_gate:nand3
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff3|nand_gate:nand4
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+a => c.IN0
+b => c.IN1
+
+
+|Controller|d_ff_struct:Dff3|not_gate:notq
+f <= e.DB_MAX_OUTPUT_PORT_TYPE
+e => f.DATAIN
+
+
+|Controller|Controller_D:controllerD
+O3 <= Controller_D3:D3.port0
+O2 <= Controller_D2:D2.port0
+O1 <= Controller_D1:D1.port0
+O0 <= Controller_D0:D0.port0
+A => A.IN4
+B => B.IN1
+C => C.IN4
+D => D.IN3
+E => E.IN4
+F => F.IN4
+
+
+|Controller|Controller_D:controllerD|Controller_D3:D3
+O <= or1.DB_MAX_OUTPUT_PORT_TYPE
+A => and1.IN0
+A => and2.IN0
+C => and2.IN1
+C => and1.IN1
+D => and1.IN2
+D => and2.IN2
+E => and1.IN3
+E => and2.IN3
+F => and1.IN4
+F => and2.IN4
+
+
+|Controller|Controller_D:controllerD|Controller_D2:D2
+O <= or1.DB_MAX_OUTPUT_PORT_TYPE
+A => and1.IN0
+A => and2.IN0
+A => and3.IN0
+A => and4.IN0
+C => and4.IN1
+C => and1.IN1
+C => and2.IN1
+C => and3.IN1
+D => and1.IN2
+D => and2.IN2
+D => and3.IN2
+D => and4.IN2
+E => and3.IN3
+E => and1.IN3
+E => and4.IN3
+F => and3.IN4
+F => and4.IN4
+F => and2.IN3
+
+
+|Controller|Controller_D:controllerD|Controller_D1:D1
+O <= or1.DB_MAX_OUTPUT_PORT_TYPE
+A => and1.IN0
+A => and2.IN0
+C => and1.IN1
+C => and2.IN1
+E => and2.IN2
+E => and1.IN2
+F => and1.IN3
+F => and2.IN3
+
+
+|Controller|Controller_D:controllerD|Controller_D0:D0
+O <= or1.DB_MAX_OUTPUT_PORT_TYPE
+A => and1.IN0
+A => and2.IN0
+A => and3.IN0
+A => and4.IN0
+B => and4.IN1
+C => and3.IN1
+C => and1.IN1
+C => and2.IN1
+C => and4.IN2
+D => and2.IN2
+D => and3.IN2
+E => and1.IN2
+E => and3.IN3
+F => and1.IN3
+F => and2.IN3
+F => and4.IN3
+
+
+|Controller|Controller_Decoder:Decoder
+OE[0] <= or12.DB_MAX_OUTPUT_PORT_TYPE
+OE[1] <= or11.DB_MAX_OUTPUT_PORT_TYPE
+OE[2] <= or10.DB_MAX_OUTPUT_PORT_TYPE
+OE[3] <= or9.DB_MAX_OUTPUT_PORT_TYPE
+OE[4] <= or8.DB_MAX_OUTPUT_PORT_TYPE
+OE[5] <= or7.DB_MAX_OUTPUT_PORT_TYPE
+OE[6] <= and17.DB_MAX_OUTPUT_PORT_TYPE
+OE[7] <= and16.DB_MAX_OUTPUT_PORT_TYPE
+OE[8] <= and15.DB_MAX_OUTPUT_PORT_TYPE
+OE[9] <= or6.DB_MAX_OUTPUT_PORT_TYPE
+OE[10] <= and12.DB_MAX_OUTPUT_PORT_TYPE
+OE[11] <= or5.DB_MAX_OUTPUT_PORT_TYPE
+Op1[0] <= or2.DB_MAX_OUTPUT_PORT_TYPE
+Op1[1] <= or1.DB_MAX_OUTPUT_PORT_TYPE
+Op2[0] <= or4.DB_MAX_OUTPUT_PORT_TYPE
+Op2[1] <= or3.DB_MAX_OUTPUT_PORT_TYPE
+R5 <= and30.DB_MAX_OUTPUT_PORT_TYPE
+R4 <= and31.DB_MAX_OUTPUT_PORT_TYPE
+R3 <= and32.DB_MAX_OUTPUT_PORT_TYPE
+R2 <= and33.DB_MAX_OUTPUT_PORT_TYPE
+R1 <= and34.DB_MAX_OUTPUT_PORT_TYPE
+A => and0.IN0
+A => and8.IN0
+A => and10.IN0
+A => and12.IN0
+A => and26.IN0
+A => and40.IN0
+A => and11.IN0
+A => and13.IN0
+A => and14.IN0
+A => and15.IN0
+A => and16.IN0
+A => and17.IN0
+A => and18.IN0
+A => and19.IN0
+A => and20.IN0
+A => and21.IN0
+A => and22.IN0
+A => and23.IN0
+A => and24.IN0
+A => and25.IN0
+A => and27.IN0
+A => and28.IN0
+A => and29.IN0
+A => and1.IN0
+A => and2.IN0
+A => and4.IN0
+A => and5.IN0
+A => and6.IN0
+A => and7.IN0
+A => and9.IN0
+A => and30.IN0
+A => and31.IN0
+A => and32.IN0
+A => and33.IN0
+A => and34.IN0
+B => and2.IN1
+B => and5.IN1
+B => and6.IN1
+B => and7.IN1
+B => and9.IN1
+B => and40.IN1
+B => and11.IN1
+B => and13.IN1
+B => and14.IN1
+B => and15.IN1
+B => and16.IN1
+B => and17.IN1
+B => and19.IN1
+B => and21.IN1
+B => and23.IN1
+B => and27.IN1
+B => and29.IN1
+B => and31.IN1
+B => and32.IN1
+B => and12.IN1
+B => and18.IN1
+B => and20.IN1
+B => and22.IN1
+B => and24.IN1
+B => and26.IN1
+B => and28.IN1
+B => and0.IN1
+B => and1.IN1
+B => and3.IN0
+B => and8.IN1
+B => and10.IN1
+B => and30.IN1
+B => and33.IN1
+B => and34.IN1
+C => and1.IN2
+C => and4.IN1
+C => and6.IN2
+C => and7.IN2
+C => and9.IN2
+C => and11.IN2
+C => and14.IN2
+C => and15.IN2
+C => and20.IN2
+C => and21.IN2
+C => and23.IN2
+C => and24.IN2
+C => and25.IN1
+C => and29.IN2
+C => and30.IN2
+C => and12.IN2
+C => and17.IN2
+C => and18.IN2
+C => and19.IN2
+C => and22.IN2
+C => and26.IN2
+C => and27.IN2
+C => and28.IN2
+C => and0.IN2
+C => and2.IN2
+C => and3.IN1
+C => and8.IN2
+C => and10.IN2
+C => and31.IN2
+C => and34.IN2
+D => and1.IN3
+D => and3.IN2
+D => and9.IN3
+D => and40.IN2
+D => and13.IN2
+D => and16.IN2
+D => and19.IN3
+D => and21.IN3
+D => and22.IN3
+D => and25.IN2
+D => and28.IN3
+D => and30.IN3
+D => and12.IN3
+D => and15.IN3
+D => and17.IN3
+D => and18.IN3
+D => and20.IN3
+D => and23.IN3
+D => and27.IN3
+D => and29.IN3
+D => and2.IN3
+D => and4.IN2
+D => and5.IN2
+D => and7.IN3
+D => and8.IN3
+D => and10.IN3
+D => and31.IN3
+D => and33.IN2
+
+

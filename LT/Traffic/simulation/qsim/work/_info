@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CE213-TKHTSHDL\LT\Traffic\simulation\qsim
+vtraffic_light
+Z1 !s100 AeoIMnahYe02:eTo[j?FQ2
+Z2 IJ?QnDHMIY>125h5<TPEg21
+Z3 Vo0@PZ<fQ2?:^Pib@^K_la1
+Z4 dD:\CE213-TKHTSHDL\LT\Traffic\simulation\qsim
+Z5 w1666249356
+Z6 8Traffic.vo
+Z7 FTraffic.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Traffic.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1666249357.157000
+Z12 !s107 Traffic.vo|
+!s101 -O0
+vtraffic_light_vlg_check_tst
+!i10b 1
+Z13 !s100 Wi:kcCbd2bYE8l[IFRUj00
+Z14 I`Zm2GaHj7BeKMf=]i;i?Q1
+Z15 VHQ04H]j>b7d4Fig^VC7X_0
+R4
+R5
+Z16 8Traffic.vt
+Z17 FTraffic.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1666249357.205000
+Z19 !s107 Traffic.vt|
+Z20 !s90 -work|work|Traffic.vt|
+!s101 -O0
+R10
+vtraffic_light_vlg_sample_tst
+!i10b 1
+Z21 !s100 >X7GkG]9N=D]:hH_>NkBA1
+Z22 IgO2:nPOzWED9JlXbV2VEA2
+Z23 V4Jagi_<3a3VDAJPlfgjRU0
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vtraffic_light_vlg_vec_tst
+!i10b 1
+!s100 4[XVC8@30fmea9no0i@@80
+I;KeFZXgJJY00?GO@M1_GL0
+Z24 V50GdBA^X0neMC0DbN;?Qk1
+R4
+R5
+R16
+R17
+Z25 L0 253
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

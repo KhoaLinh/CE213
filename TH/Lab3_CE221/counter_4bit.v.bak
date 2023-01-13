@@ -1,0 +1,9 @@
+module counter_4bit(q,en,clk,clear);
+	output [3:0]q;
+	input en,clk,clear;
+	
+	always @(posedge clk or negedge clear);
+		if (clear == 1'b0)
+			q = 4'b0000;
+	
+endmodule

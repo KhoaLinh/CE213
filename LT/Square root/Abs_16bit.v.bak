@@ -1,0 +1,9 @@
+module Abs_16bit (M, A);
+	
+	output [15:0]M;
+	input [15:0]A;
+	
+	assign M[14:0] = A[14:0];
+	assign M[15] = 0;
+	
+endmodule

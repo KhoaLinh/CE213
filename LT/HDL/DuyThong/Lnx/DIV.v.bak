@@ -1,0 +1,40 @@
+module DIV (Dividend, Divisor, Quotient);
+input [32:0] Dividend;
+input [16:0] Divisor;
+output [8:0] Quotient;
+wire [16:0] rem1, rem2, rem3, rem4, rem5, rem6, rem7, rem8, rem9, rem10, rem11, rem12, rem13, rem14, rem15, rem16, rem17;
+wire one, zero;
+
+assign one = 1'b1;
+assign zero = 1'b0;
+
+CAS17bit CAS0 (one, Dividend[32:16], Divisor, one, rem1,);
+CAS17bit CAS1 (~rem1[16], {rem1[15:0],Dividend[15]}, Divisor, ~rem1[16], rem2,);
+CAS17bit CAS2 (~rem2[16], {rem2[15:0],Dividend[14]}, Divisor, ~rem2[16], rem3,);
+CAS17bit CAS3 (~rem3[16], {rem3[15:0],Dividend[13]}, Divisor, ~rem3[16], rem4,);
+CAS17bit CAS4 (~rem4[16], {rem4[15:0],Dividend[12]}, Divisor, ~rem4[16], rem5,);
+CAS17bit CAS5 (~rem5[16], {rem5[15:0],Dividend[11]}, Divisor, ~rem5[16], rem6,);
+CAS17bit CAS6 (~rem6[16], {rem6[15:0],Dividend[10]}, Divisor, ~rem6[16], rem7,);
+CAS17bit CAS7 (~rem7[16], {rem7[15:0],Dividend[9]}, Divisor, ~rem7[16], rem8,);
+CAS17bit CAS8 (~rem8[16], {rem8[15:0],Dividend[8]}, Divisor, ~rem8[16], rem9,);
+CAS17bit CAS9 (~rem9[16], {rem9[15:0],Dividend[7]}, Divisor, ~rem9[16], rem10,);
+CAS17bit CAS10 (~rem10[16], {rem10[15:0],Dividend[6]}, Divisor, ~rem10[16], rem11,);
+CAS17bit CAS11 (~rem11[16], {rem11[15:0],Dividend[5]}, Divisor, ~rem11[16], rem12,);
+CAS17bit CAS12 (~rem12[16], {rem12[15:0],Dividend[4]}, Divisor, ~rem12[16], rem13,);
+CAS17bit CAS13 (~rem13[16], {rem13[15:0],Dividend[3]}, Divisor, ~rem13[16], rem14,);
+CAS17bit CAS14 (~rem14[16], {rem14[15:0],Dividend[2]}, Divisor, ~rem14[16], rem15,);
+CAS17bit CAS15 (~rem15[16], {rem15[15:0],Dividend[1]}, Divisor, ~rem15[16], rem16,);
+CAS17bit CAS16 (~rem16[16], {rem16[15:0],Dividend[0]}, Divisor, ~rem16[16], rem17,);
+
+assign Quotient[8] = ~rem1[16];
+assign Quotient[7] = ~rem2[16];
+assign Quotient[6] = ~rem3[16];
+assign Quotient[5] = ~rem4[16];
+assign Quotient[4] = ~rem5[16];
+assign Quotient[3] = ~rem6[16];
+assign Quotient[2] = ~rem7[16];
+assign Quotient[1] = ~rem8[16];
+assign Quotient[0] = ~rem9[16];
+
+
+endmodule

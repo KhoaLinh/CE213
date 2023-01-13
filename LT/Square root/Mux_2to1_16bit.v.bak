@@ -1,0 +1,17 @@
+module Mux_2to1_16bit(M, A, B, S);
+	
+	output [15:0]O;
+	input [15:0]A;
+	input [15:0]B;
+	input S;
+	
+	wire nS;
+	wire [15:0]n1;
+	wire [15:0]n2;
+	
+	not(nS,S);
+	and and_gate1[15:0](n1,A,nS);
+	and and_gate2[15:0](n2,B,S);
+	or or_gate1[15:0](O,n1,n2);
+	
+endmodule

@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ADMIN\workspace\cuoiky\simulation\qsim
+vALU
+Z1 IOTWmBP@coEoOM>UdW:L@J1
+Z2 V9l[z@MWkHEfd^UQTC;LA[2
+Z3 dD:\quartus\HDL\coDiem\cuoiky\cuoiky\simulation\qsim
+Z4 w1671441613
+Z5 8cuoiky.vo
+Z6 Fcuoiky.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|cuoiky.vo|
+Z9 o-work work -O0
+Z10 n@a@l@u
+!i10b 1
+Z11 !s100 _S1eBb]h93@6azVd>c^1@1
+!s85 0
+Z12 !s108 1671441613.880000
+Z13 !s107 cuoiky.vo|
+!s101 -O0
+vALU_vlg_check_tst
+!i10b 1
+!s100 ]RmDYfk]ck]IddTE6oLmT1
+IA>==dK6n9^jN<X8V^VoWO0
+V6R^949Gz:d:>S`3mGgTTE0
+R3
+Z14 w1671441612
+Z15 8cuoiky.vt
+Z16 Fcuoiky.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1671441613.953000
+Z18 !s107 cuoiky.vt|
+Z19 !s90 -work|work|cuoiky.vt|
+!s101 -O0
+R9
+Z20 n@a@l@u_vlg_check_tst
+vALU_vlg_sample_tst
+!i10b 1
+Z21 !s100 3Am<lL7geK>WVQT]dehNd1
+Z22 IzNL^Hh_b804L5gIl4UlP:0
+Z23 V2n8GCXEkFKV3HBX5n^:8a0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@a@l@u_vlg_sample_tst
+vALU_vlg_vec_tst
+!i10b 1
+!s100 YVcKITHDWA9<_RZX`4fRD1
+IA=[zXJ=>kXHfgnRcz<Le<1
+Z25 V>bFnnU[^IecCM5^<l3;]W0
+R3
+R14
+R15
+R16
+L0 713
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z26 n@a@l@u_vlg_vec_tst
+vdatapath
+Z27 Iej;XlUC<0d;4;mIfKZNIV2
+Z28 V@SkhP=d>;mP;MRzKCoTzo0
+R3
+Z29 w1671207732
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z30 !s100 ehO_9<IzBk9dPa^aPJXiz0
+Z31 !s108 1671207735.531000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath_vlg_vec_tst
+Z32 IjLh;5CQN;D:E7EBT]Ngj;0
+Z33 V^@Kb0LjGY<clOm@lcHMDA1
+R3
+Z34 w1671207734
+R15
+R16
+L0 29
+R7
+r1
+31
+R19
+R9
+Z35 !s100 7Y4nk^C89N3QU^LThS8VX3
+Z36 !s108 1671207735.670000
+Z37 !s107 cuoiky.vt|
+!i10b 1
+!s85 0
+!s101 -O0

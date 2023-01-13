@@ -1,0 +1,7 @@
+module Max (S, A, B);
+	output S;
+	input A, B;
+	
+	assign S = (A > B) ? A :B;
+	
+endmodule

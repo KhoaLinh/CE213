@@ -1,0 +1,8 @@
+Info (10281): Verilog HDL Declaration information at hexshow.v(10): object "hex7" differs only in case from object "HEX7" in the same scope
+Info (10281): Verilog HDL Declaration information at hexshow.v(11): object "hex6" differs only in case from object "HEX6" in the same scope
+Info (10281): Verilog HDL Declaration information at hexshow.v(12): object "hex5" differs only in case from object "HEX5" in the same scope
+Info (10281): Verilog HDL Declaration information at hexshow.v(13): object "hex4" differs only in case from object "HEX4" in the same scope
+Info (10281): Verilog HDL Declaration information at hexshow.v(14): object "hex3" differs only in case from object "HEX3" in the same scope
+Info (10281): Verilog HDL Declaration information at hexshow.v(15): object "hex2" differs only in case from object "HEX2" in the same scope
+Info (10281): Verilog HDL Declaration information at hexshow.v(16): object "hex1" differs only in case from object "HEX1" in the same scope
+Info (10281): Verilog HDL Declaration information at hexshow.v(17): object "hex0" differs only in case from object "HEX0" in the same scope

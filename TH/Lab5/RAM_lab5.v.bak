@@ -1,0 +1,31 @@
+module RAM_lab5(data,
+                clock,
+                cs,
+                wr_e,
+                oe,
+                addr);
+    parameter Address_Width = 7,
+    Data_Width = 8,
+    Size = 1 << Address_Width;
+    
+    inout [Data_Width-1:0] data;
+    input clock,cs,wr_e,oe;
+    input [Address_Width-1:0]addr;
+    
+    reg [Data_Width:0] mem [0:Size-1];
+    reg [Data_Width-1:0] data_out;
+    assign data = (oe && cs && !wr_e) ? data_out : {8{1'bz}};
+    
+    always @(posedge clock) begin
+        if (cs && wr_e) begin
+            mem[addr] = data;
+        end
+    end
+    
+    always @(posedge clock) begin
+        if (cs && ~wr_e && oe) begin
+            data_out = mem[addr];
+        end
+    end
+    
+endmodule

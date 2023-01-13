@@ -1,0 +1,9 @@
+Warning (10268): Verilog HDL information at counter4bit.v(8): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at showhex.v(2): object "hex7" differs only in case from object "HEX7" in the same scope
+Info (10281): Verilog HDL Declaration information at showhex.v(3): object "hex6" differs only in case from object "HEX6" in the same scope
+Info (10281): Verilog HDL Declaration information at showhex.v(4): object "hex5" differs only in case from object "HEX5" in the same scope
+Info (10281): Verilog HDL Declaration information at showhex.v(5): object "hex4" differs only in case from object "HEX4" in the same scope
+Info (10281): Verilog HDL Declaration information at showhex.v(6): object "hex3" differs only in case from object "HEX3" in the same scope
+Info (10281): Verilog HDL Declaration information at showhex.v(7): object "hex2" differs only in case from object "HEX2" in the same scope
+Info (10281): Verilog HDL Declaration information at showhex.v(8): object "hex1" differs only in case from object "HEX1" in the same scope
+Info (10281): Verilog HDL Declaration information at showhex.v(9): object "hex0" differs only in case from object "HEX0" in the same scope

@@ -1,0 +1,15 @@
+module AddSubMax_16bit(out,inA,inB,c);
+	output {15:0}out;
+	input [15:0]inA;
+	input [15:0]inB;
+	input [1:0]c;
+	
+	always @(inA,inB,c) begin
+		if c=2'b00
+			{_,out} = inA+inB;
+		if c=2'b01
+			{_,out} = inA-inB;
+		if c=2'b10
+			out = inA[15] ? -inA:inA;
+	end
+endmodule

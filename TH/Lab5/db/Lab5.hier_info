@@ -1,0 +1,23 @@
+|Lab5
+q_out[0] <= q_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_out[1] <= q_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_out[2] <= q_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_out[3] <= q_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => q_out[0]~reg0.CLK
+clk => q_out[1]~reg0.CLK
+clk => q_out[2]~reg0.CLK
+clk => q_out[3]~reg0.CLK
+Reset_n => q_out[0]~reg0.ACLR
+Reset_n => q_out[1]~reg0.ACLR
+Reset_n => q_out[2]~reg0.ACLR
+Reset_n => q_out[3]~reg0.ACLR
+enable => q_out[0]~reg0.ENA
+enable => q_out[3]~reg0.ENA
+enable => q_out[2]~reg0.ENA
+enable => q_out[1]~reg0.ENA
+up_down => q_out~3.OUTPUTSELECT
+up_down => q_out~2.OUTPUTSELECT
+up_down => q_out~1.OUTPUTSELECT
+up_down => q_out~0.OUTPUTSELECT
+
+

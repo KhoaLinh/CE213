@@ -1,0 +1,64 @@
+D:/CE213-TKHTSHDL/TH/Lab5/tb_seffchecking.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/tb_seffchecking.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_selfchecking
+
+Top level modules:
+	tb_selfchecking
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/ROM_lab5.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/ROM_lab5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ROM_lab5
+
+Top level modules:
+	ROM_lab5
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/tb_ROM_lab5.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/tb_ROM_lab5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_ROM_lab5
+
+Top level modules:
+	tb_ROM_lab5
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/ROM.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/ROM.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/RAM_lab5.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/RAM_lab5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RAM_lab5
+
+Top level modules:
+	RAM_lab5
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/tb_seftcheckingRAM.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/tb_seftcheckingRAM.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_seftcheckingRAM
+
+Top level modules:
+	tb_seftcheckingRAM
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/Lab5.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/Lab5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Lab5
+
+Top level modules:
+	Lab5
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/tb_RAM_lab5.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/tb_RAM_lab5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_RAM_lab5
+
+Top level modules:
+	tb_RAM_lab5
+
+} {} {}} D:/CE213-TKHTSHDL/TH/Lab5/testCounter.v {1 {vlog -work work D:/CE213-TKHTSHDL/TH/Lab5/testCounter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module testCounter
+
+Top level modules:
+	testCounter
+
+} {} {}}

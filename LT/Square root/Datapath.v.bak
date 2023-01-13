@@ -1,0 +1,16 @@
+module Datapath (O, A, B, OE);
+	
+	output [15:0]M;
+	input [15:0]OE;
+	input A, B;
+	
+	wire [15:0] Bus1;
+	wire [15:0] Bus2;
+	wire [15:0] Bus3;
+	wire [15:0] Bus4;
+	wire [15:0] Bus5;
+	wire [15:0] Bus6;
+	wire [15:0] Bus7;
+	
+	Tristate TRi1 ()
+endmodule

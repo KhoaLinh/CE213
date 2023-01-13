@@ -1,0 +1,180 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\quartus\quartus_setup\modelsim_ase\altera\verilog\cycloneii
+vALU
+Z1 !s100 FfAf40:?gd^bh`8bZ3[eM1
+Z2 Io34Bn0WfZEjnH7;GbJcOl3
+Z3 V9l[z@MWkHEfd^UQTC;LA[2
+Z4 dD:\quartus\HDL\coDiem\cuoiky\cuoiky\simulation
+Z5 w1671444178
+Z6 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/ALU.v
+Z7 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/ALU.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/ALU.v|
+Z10 o-work work -O0
+Z11 n@a@l@u
+Z12 !s108 1671447680.669000
+Z13 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontrol_unit
+Z14 !s100 iAgQ46c>7nZlhQ[]:[N7K0
+Z15 IRDI_[Z]Fl5IfhEX:Bl6LL3
+Z16 V]nZOThk8_[F1PO;3>NbKg0
+R4
+Z17 w1671445571
+Z18 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/control_unit.v
+Z19 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/control_unit.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/control_unit.v|
+R10
+Z21 !s108 1671447680.718000
+Z22 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/control_unit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDataMem
+Z23 IPV7PIe5W9a=6Rj>DYk=5z0
+Z24 V^o`9N]jk`gA1=5L[Xdh<^1
+R4
+Z25 w1671447663
+Z26 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/DataMem.v
+Z27 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/DataMem.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/DataMem.v|
+R10
+Z29 n@data@mem
+Z30 !s100 291;Kd[Pm<f]8Xzh_IXPo3
+Z31 !s108 1671447680.769000
+Z32 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/DataMem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z33 !s100 <ShOVH69K_U7@LZj:QTNF2
+Z34 I<[PjR@?40U_ldP6hFT68E0
+Z35 VV^HL[V97SzcG7RInF8A;B0
+R4
+Z36 w1671445105
+Z37 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/datapath.v
+Z38 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/datapath.v
+L0 2
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/datapath.v|
+R10
+Z40 !s108 1671447680.820000
+Z41 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux
+Z42 !s100 5Ah4EJVdMm;`7[`Ha=:0a3
+Z43 ISbT>Ya9?]M1jWAYT]@nE[1
+Z44 Vm4>;F8b`I8bF]iVcnb=1L2
+R4
+Z45 w1671441847
+Z46 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/mux.v
+Z47 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/mux.v
+L0 1
+R8
+r1
+31
+Z48 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/mux.v|
+R10
+Z49 !s108 1671447680.869000
+Z50 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/mux.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegisters
+Z51 !s100 U[Z9dkAX]Kb<DogHSCCZH3
+Z52 I=8Cjh_SYe1J08dJbUV2293
+Z53 VO2eL5Zn]`Lb45on_JUnf_3
+R4
+Z54 w1671446764
+Z55 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v
+Z56 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v
+L0 1
+R8
+r1
+31
+Z57 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v|
+R10
+Z58 n@registers
+Z59 !s108 1671447680.915000
+Z60 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsign_extend
+Z61 !s100 cZN;=I_N9bdaDP<CEa^Rc2
+Z62 IzS<2^S0M=3n@nLd0MI3671
+Z63 VL_AmG6_iR^baIb[0mnZgY1
+R4
+Z64 w1669103439
+Z65 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/sign_extend.v
+Z66 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/sign_extend.v
+L0 1
+R8
+r1
+31
+Z67 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/sign_extend.v|
+R10
+Z68 !s108 1671447680.962000
+Z69 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/sign_extend.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb
+Z70 I7FPY6YBBPLXaAO9gm48hB1
+Z71 VV@Xn<HnSRM[I5c1?BH]3a3
+R4
+Z72 w1671447673
+Z73 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/tb.v
+Z74 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/tb.v
+L0 2
+R8
+r1
+31
+Z75 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/tb.v|
+R10
+!i10b 1
+Z76 !s100 _ASG62`FYWLG3eB4L>Y=g2
+!s85 0
+Z77 !s108 1671447681.008000
+Z78 !s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/tb.v|
+!s101 -O0
+vtbALU
+!i10b 1
+Z79 !s100 QLlJO^@OC79i0]XiT;V;60
+Z80 I64EKn]FdgPKo:F`Jaca140
+Z81 V7_zAdzObO4];C=:F0UMbR3
+R4
+Z82 w1671444591
+Z83 8D:/quartus/HDL/coDiem/cuoiky/cuoiky/tbALU.v
+Z84 FD:/quartus/HDL/coDiem/cuoiky/cuoiky/tbALU.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1671447681.053000
+!s107 D:/quartus/HDL/coDiem/cuoiky/cuoiky/tbALU.v|
+Z85 !s90 -reportprogress|300|-work|work|D:/quartus/HDL/coDiem/cuoiky/cuoiky/tbALU.v|
+!s101 -O0
+R10
+Z86 ntb@a@l@u

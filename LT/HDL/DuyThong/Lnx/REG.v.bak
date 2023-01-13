@@ -1,0 +1,9 @@
+module REG (CLK, RESET, LOAD, IN, Qnext);
+    input CLK, RESET, LOAD, IN;
+    output Qnext;
+    wire Q, zero;
+
+    assign zero = 1'b0;
+    assign Q = (LOAD) ? IN : Qnext;
+    register reg0(CLK, RESET, zero, Q, Qnext);
+endmodule

@@ -1,0 +1,324 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vAbsMinMax_16bit
+Z1 !s100 gXebl7k:SY=ACG`WUN3eh3
+Z2 I7fEEcS=5jc3^XzaG1`>PG3
+Z3 V^[XYkhU56:eXT;oe2=k?L3
+Z4 dD:\Data_pipeline_Beha\simulation\modelsim
+Z5 w1665534982
+Z6 8D:/Data_pipeline_Beha/AbsMinMax_16bit.v
+Z7 FD:/Data_pipeline_Beha/AbsMinMax_16bit.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/AbsMinMax_16bit.v|
+Z10 o-work work -O0
+Z11 n@abs@min@max_16bit
+Z12 !s108 1666160020.271000
+Z13 !s107 D:/Data_pipeline_Beha/AbsMinMax_16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vAdd_16bit
+Z14 !s100 JZD?NdVILXYaDHIPTSUGn0
+Z15 ICBcTmbb`lHCFa`R]NL7VT1
+Z16 VBR0^abj8d`f=MWd_gNm=_2
+R4
+Z17 w1665203753
+Z18 8D:/Data_pipeline_Beha/Add_16bit.v
+Z19 FD:/Data_pipeline_Beha/Add_16bit.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Add_16bit.v|
+R10
+Z21 n@add_16bit
+Z22 !s108 1666160020.315000
+Z23 !s107 D:/Data_pipeline_Beha/Add_16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vAddSubMax_16bit
+Z24 !s100 U`Y^L7UcX`bE2>_M3WUe^0
+Z25 Ii;N]PAP4AF`6@C2bJgBEQ1
+Z26 VHj@>i3dGdeSe<c:neTVKX3
+R4
+Z27 w1665534984
+Z28 8D:/Data_pipeline_Beha/AddSubMax_16bit.v
+Z29 FD:/Data_pipeline_Beha/AddSubMax_16bit.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/AddSubMax_16bit.v|
+R10
+Z31 n@add@sub@max_16bit
+Z32 !s108 1666160020.379000
+Z33 !s107 D:/Data_pipeline_Beha/AddSubMax_16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vController
+Z34 !s100 l^<H7c^fKL;lo^GR;Ja@E2
+Z35 IDh8X`4b7CBnfoQNa4Z9RW1
+Z36 VF<``ifY5iZk_<8VTaLIR12
+R4
+Z37 w1666076721
+Z38 8D:/Data_pipeline_Beha/Controller.v
+Z39 FD:/Data_pipeline_Beha/Controller.v
+L0 1
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Controller.v|
+R10
+Z41 n@controller
+Z42 !s108 1666160020.427000
+Z43 !s107 D:/Data_pipeline_Beha/Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter
+Z44 IRc5g6WQ_z25YE]<3=Ci_l0
+Z45 VF<<J?3iY6gRdP0PSmX9cj1
+R4
+Z46 w1666159712
+Z47 8D:/Data_pipeline_Beha/Counter.v
+Z48 FD:/Data_pipeline_Beha/Counter.v
+L0 1
+R8
+r1
+31
+R10
+Z49 n@counter
+Z50 !s100 Jb_YIlObLW:R_UF0jWV8A2
+Z51 !s108 1666160020.475000
+Z52 !s107 D:/Data_pipeline_Beha/Counter.v|
+Z53 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vData_pipeline_Beha
+Z54 !s100 <MAc^3z^973[7;D`8H02j0
+Z55 I0djkH>d7Lji?<:lDQ:UT_3
+Z56 V80?fEh?ieeNf=PmgSW2Ib0
+R4
+Z57 w1665244966
+Z58 8D:/Data_pipeline_Beha/Data_pipeline_Beha.v
+Z59 FD:/Data_pipeline_Beha/Data_pipeline_Beha.v
+L0 19
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Data_pipeline_Beha.v|
+R10
+Z61 n@data_pipeline_@beha
+Z62 !s108 1666160020.523000
+Z63 !s107 D:/Data_pipeline_Beha/Data_pipeline_Beha.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDatapath
+Z64 !s100 UHC4STB2LMz[6Jjzf2;MG0
+Z65 IT7E_GhFKc0X=1djnj0SE42
+Z66 V8mz1D2BJ[KDAD2Wlc?f<R1
+R4
+Z67 w1665537887
+Z68 8D:/Data_pipeline_Beha/Datapath.v
+Z69 FD:/Data_pipeline_Beha/Datapath.v
+L0 1
+R8
+r1
+31
+Z70 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Datapath.v|
+R10
+Z71 n@datapath
+Z72 !s108 1666160020.567000
+Z73 !s107 D:/Data_pipeline_Beha/Datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMaxAbs_16bit
+Z74 !s100 zH]9;@_AgzOWne6M0]:`@1
+Z75 Ii?EFJ;ddjZe27N5aYQ4491
+Z76 VSVoGhWkYj70TLCzX:n01n2
+R4
+Z77 w1665202988
+Z78 8D:/Data_pipeline_Beha/MaxAbs_16bit.v
+Z79 FD:/Data_pipeline_Beha/MaxAbs_16bit.v
+L0 1
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/MaxAbs_16bit.v|
+R10
+Z81 n@max@abs_16bit
+Z82 !s108 1666160020.611000
+Z83 !s107 D:/Data_pipeline_Beha/MaxAbs_16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vReg_16bit
+Z84 !s100 N@BfbJX=0G2Y=m1JC3Lzo2
+Z85 I=1Vj6gV>zCYHOK2h0>i;M0
+Z86 VK=Wb^DN`[h]V:KIEm6TXR1
+R4
+Z87 w1665446294
+Z88 8D:/Data_pipeline_Beha/Reg_16bit.v
+Z89 FD:/Data_pipeline_Beha/Reg_16bit.v
+L0 1
+R8
+r1
+31
+Z90 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Reg_16bit.v|
+R10
+Z91 n@reg_16bit
+Z92 !s108 1666160020.651000
+Z93 !s107 D:/Data_pipeline_Beha/Reg_16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vShiftR1_16bit
+Z94 !s100 lB<Zia[G^5<;1odO91QQc3
+Z95 InV:BiHUQjQYnYo<dKXQ__3
+Z96 VH246fPCe;FKEbAjYdzfW90
+R4
+Z97 w1665213292
+Z98 8D:/Data_pipeline_Beha/ShiftR1_16bit.v
+Z99 FD:/Data_pipeline_Beha/ShiftR1_16bit.v
+L0 1
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/ShiftR1_16bit.v|
+R10
+Z101 n@shift@r1_16bit
+Z102 !s108 1666160020.695000
+Z103 !s107 D:/Data_pipeline_Beha/ShiftR1_16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vShiftR3_16bit
+Z104 !s100 g:mcQZ@d;V6E^>SK@9@563
+Z105 IO1`z7L>PO55ed53KC7T_j2
+Z106 VUcXf@Ub>K:=;0gZZ3724J3
+R4
+Z107 w1665203415
+Z108 8D:/Data_pipeline_Beha/ShiftR3_16bit.v
+Z109 FD:/Data_pipeline_Beha/ShiftR3_16bit.v
+L0 1
+R8
+r1
+31
+Z110 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/ShiftR3_16bit.v|
+R10
+Z111 n@shift@r3_16bit
+Z112 !s108 1666160020.739000
+Z113 !s107 D:/Data_pipeline_Beha/ShiftR3_16bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSquareroot
+Z114 I>EKW<Yo<TQg:MVVF1S6LN3
+Z115 VYVZGH:ah>TN=V5Pb4RDO53
+R4
+Z116 w1666075884
+Z117 8D:/Data_pipeline_Beha/Squareroot.v
+Z118 FD:/Data_pipeline_Beha/Squareroot.v
+L0 1
+R8
+r1
+31
+R10
+Z119 n@squareroot
+Z120 !s100 @Oa>a3dej7ZzLO0^<?`Bn3
+Z121 !s108 1666160020.779000
+Z122 !s107 D:/Data_pipeline_Beha/Squareroot.v|
+Z123 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Squareroot.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSub_16bit
+Z124 !s100 ADfW5JACJP;g4]fD[Lz1a1
+Z125 I^iN_izDoI@?=fFG2g?2hG2
+Z126 VSC`Y_BT8m1N7MdI3zEO;63
+R4
+Z127 w1665213194
+Z128 8D:/Data_pipeline_Beha/Sub_16bit.v
+Z129 FD:/Data_pipeline_Beha/Sub_16bit.v
+L0 1
+R8
+r1
+31
+Z130 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Sub_16bit.v|
+R10
+Z131 n@sub_16bit
+!i10b 1
+!s85 0
+Z132 !s108 1666160020.823000
+Z133 !s107 D:/Data_pipeline_Beha/Sub_16bit.v|
+!s101 -O0
+vtest
+Z134 IlC@^2HXJ@`Ma;Oz1L_`153
+Z135 Vk<3<[f=78GX=_HO53D;7>3
+R4
+Z136 w1666159808
+Z137 8D:/Data_pipeline_Beha/test_Squareroot.v
+Z138 FD:/Data_pipeline_Beha/test_Squareroot.v
+L0 2
+R8
+r1
+31
+Z139 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/test_Squareroot.v|
+R10
+Z140 !s100 Ez0zKZj^z4G_FNYo_H7jz3
+Z141 !s108 1666160020.223000
+Z142 !s107 D:/Data_pipeline_Beha/test_Squareroot.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_Squareroot
+Z143 !s100 R082@3ML[HbX2B3^X3_zH1
+Z144 IXdIEBjfNhg>U1lKnmKSb?2
+Z145 V9kBDn;`8e_;=Ng9VCYnec2
+R4
+Z146 w1666095243
+R137
+R138
+L0 1
+R8
+r1
+31
+R139
+R10
+Z147 ntest_@squareroot
+Z148 !s108 1666109216.013000
+R142
+!i10b 1
+!s85 0
+!s101 -O0
+vTri_State
+!i10b 1
+Z149 !s100 E5fbUaT_4Yo[AKk?RKDg_1
+Z150 IM1J<?N_@>AG>2[j;>QQ=^1
+Z151 VYPlGR=GY]FMJAciEXEH6c0
+R4
+Z152 w1665244300
+Z153 8D:/Data_pipeline_Beha/Tri_State.v
+Z154 FD:/Data_pipeline_Beha/Tri_State.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1666160020.862000
+!s107 D:/Data_pipeline_Beha/Tri_State.v|
+Z155 !s90 -reportprogress|300|-work|work|D:/Data_pipeline_Beha/Tri_State.v|
+!s101 -O0
+R10
+Z156 n@tri_@state

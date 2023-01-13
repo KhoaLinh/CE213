@@ -1,0 +1,20 @@
+module FSM(load_number, mode, reset, clk, count_now, count_next, full);
+input[12:0] load_number, count_now;
+input mode, reset, clk;
+output[12:0] count_next;
+output full;
+reg[12:0] count_next, count_next_beforereg;
+parameter S0= 2'b00, S1=2'b01, S2=2'b10, S3=2'b11;
+
+always@ (posedge clk or posedge reset) begin
+	if(reset)	// an asynchronous reset
+		count = 12'h000 ;
+	else
+		count_next = count_next_beforereg;
+end
+
+always@ (mode) begin
+	if (mode == 0)
+		count_next_beforereg = load_number;
+	else 
+		count_next_beforereg = count_now + 1;

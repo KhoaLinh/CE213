@@ -1,0 +1,76 @@
+|Lab1_CE221
+hex0[0] <= decoder_4bit:inst.hex0[0]
+hex0[1] <= decoder_4bit:inst.hex0[1]
+hex0[2] <= decoder_4bit:inst.hex0[2]
+hex0[3] <= decoder_4bit:inst.hex0[3]
+hex0[4] <= decoder_4bit:inst.hex0[4]
+hex0[5] <= decoder_4bit:inst.hex0[5]
+hex0[6] <= decoder_4bit:inst.hex0[6]
+in[0] => decoder_4bit:inst.in[0]
+in[1] => decoder_4bit:inst.in[1]
+in[2] => decoder_4bit:inst.in[2]
+in[3] => decoder_4bit:inst.in[3]
+hex1[0] <= decoder_4bit:inst.hex1[0]
+hex1[1] <= decoder_4bit:inst.hex1[1]
+hex1[2] <= decoder_4bit:inst.hex1[2]
+hex1[3] <= decoder_4bit:inst.hex1[3]
+hex1[4] <= decoder_4bit:inst.hex1[4]
+hex1[5] <= decoder_4bit:inst.hex1[5]
+hex1[6] <= decoder_4bit:inst.hex1[6]
+
+
+|Lab1_CE221|decoder_4bit:inst
+hex0[0] <= segment7:seg0.port1
+hex0[1] <= segment7:seg0.port1
+hex0[2] <= segment7:seg0.port1
+hex0[3] <= segment7:seg0.port1
+hex0[4] <= segment7:seg0.port1
+hex0[5] <= segment7:seg0.port1
+hex0[6] <= segment7:seg0.port1
+hex1[0] <= segment7:seg1.port1
+hex1[1] <= segment7:seg1.port1
+hex1[2] <= segment7:seg1.port1
+hex1[3] <= segment7:seg1.port1
+hex1[4] <= segment7:seg1.port1
+hex1[5] <= segment7:seg1.port1
+hex1[6] <= segment7:seg1.port1
+in[0] => num0[0].IN1
+in[1] => LessThan0.IN7
+in[1] => Add0.IN6
+in[1] => num0.DATAB
+in[2] => LessThan0.IN6
+in[2] => Add0.IN5
+in[2] => num0.DATAB
+in[3] => LessThan0.IN5
+in[3] => Add0.IN4
+in[3] => num0.DATAB
+
+
+|Lab1_CE221|decoder_4bit:inst|segment7:seg0
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1_CE221|decoder_4bit:inst|segment7:seg1
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

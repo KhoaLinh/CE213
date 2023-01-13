@@ -1,0 +1,21 @@
+module getMode (state, full, c, mode);
+input [1:0] state;
+input full,c;
+output mode;
+
+case (state&full&c)
+	4'b0010:
+	4'b0110:
+	4'b0111:
+	4'b1110:
+	4'b1111:
+		assign mode = 2'b00;
+	4'b0011:
+	4'b1010:
+	4'b1011:
+		assign mode = 2'b01;
+	default:
+		assign mode = 2'b10;
+	endcase
+endmodule
+	

@@ -1,0 +1,141 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ADMIN\workspace\Lab5_CE221
+vALU
+Z1 !s100 Dk^K=EXW83]OTVX_@9c<`0
+Z2 ImW<Q>MCmmCLCPiKadHE<60
+Z3 V9l[z@MWkHEfd^UQTC;LA[2
+Z4 dC:\Users\ADMIN\workspace\cuoiky
+Z5 w1669278147
+Z6 8C:/Users/ADMIN/workspace/cuoiky/ALU.v
+Z7 FC:/Users/ADMIN/workspace/cuoiky/ALU.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/ADMIN/workspace/cuoiky/ALU.v|
+Z10 o-work work -O0
+Z11 n@a@l@u
+Z12 !s108 1669452605.456000
+Z13 !s107 C:/Users/ADMIN/workspace/cuoiky/ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontrol_unit
+Z14 IU<FC8>6h@bIfS>0[38iK`1
+Z15 V]nZOThk8_[F1PO;3>NbKg0
+R4
+Z16 w1669452403
+Z17 8C:/Users/ADMIN/workspace/cuoiky/control_unit.v
+Z18 FC:/Users/ADMIN/workspace/cuoiky/control_unit.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/ADMIN/workspace/cuoiky/control_unit.v|
+R10
+Z20 !s100 9iMnlPZDKgjhT3nRkSl]b0
+Z21 !s108 1669452605.498000
+Z22 !s107 C:/Users/ADMIN/workspace/cuoiky/control_unit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDataMem
+Z23 !s100 ^IlhQah3CcZ1V0TgoNHD^3
+Z24 I^FSJ^V2RUJ0]hecQoj7j]1
+Z25 V^o`9N]jk`gA1=5L[Xdh<^1
+R4
+Z26 w1669436951
+Z27 8C:/Users/ADMIN/workspace/cuoiky/DataMem.v
+Z28 FC:/Users/ADMIN/workspace/cuoiky/DataMem.v
+L0 1
+R8
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/ADMIN/workspace/cuoiky/DataMem.v|
+R10
+Z30 n@data@mem
+Z31 !s108 1669452605.541000
+Z32 !s107 C:/Users/ADMIN/workspace/cuoiky/DataMem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z33 !s100 Km[eL]ITHddjGe:GVjDVA2
+Z34 IjC<`b1ZgL?_K=C[4XLBXF2
+Z35 V@SkhP=d>;mP;MRzKCoTzo0
+R4
+Z36 w1669437247
+Z37 8C:/Users/ADMIN/workspace/cuoiky/datapath.v
+Z38 FC:/Users/ADMIN/workspace/cuoiky/datapath.v
+L0 1
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|C:/Users/ADMIN/workspace/cuoiky/datapath.v|
+R10
+Z40 !s108 1669452605.582000
+Z41 !s107 C:/Users/ADMIN/workspace/cuoiky/datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux
+Z42 !s100 ggo@d_^RcG6=m=aIGHHiG0
+Z43 IBV;jlMLd@3fJjX2M@3[0G1
+Z44 Vm4>;F8b`I8bF]iVcnb=1L2
+R4
+Z45 w1669447273
+Z46 8C:/Users/ADMIN/workspace/cuoiky/mux.v
+Z47 FC:/Users/ADMIN/workspace/cuoiky/mux.v
+L0 1
+R8
+r1
+31
+Z48 !s90 -reportprogress|300|-work|work|C:/Users/ADMIN/workspace/cuoiky/mux.v|
+R10
+Z49 !s108 1669452605.623000
+Z50 !s107 C:/Users/ADMIN/workspace/cuoiky/mux.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegisters
+Z51 !s100 ?i;AW@9U7K`mH7NCgXT6M2
+Z52 I9RNzo;TmolG=?B33_diD?0
+Z53 VO2eL5Zn]`Lb45on_JUnf_3
+R4
+Z54 w1669102533
+Z55 8C:/Users/ADMIN/workspace/cuoiky/Registers.v
+Z56 FC:/Users/ADMIN/workspace/cuoiky/Registers.v
+L0 1
+R8
+r1
+31
+Z57 !s90 -reportprogress|300|-work|work|C:/Users/ADMIN/workspace/cuoiky/Registers.v|
+R10
+Z58 n@registers
+!i10b 1
+!s85 0
+Z59 !s108 1669452605.664000
+Z60 !s107 C:/Users/ADMIN/workspace/cuoiky/Registers.v|
+!s101 -O0
+vsign_extend
+!i10b 1
+Z61 !s100 Y<4K^obJ8>fJ`b09g:3N`3
+Z62 IOH?]oJzU2zb>mNaDTamj40
+Z63 VL_AmG6_iR^baIb[0mnZgY1
+R4
+Z64 w1669103439
+Z65 8C:/Users/ADMIN/workspace/cuoiky/sign_extend.v
+Z66 FC:/Users/ADMIN/workspace/cuoiky/sign_extend.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1669452605.706000
+!s107 C:/Users/ADMIN/workspace/cuoiky/sign_extend.v|
+Z67 !s90 -reportprogress|300|-work|work|C:/Users/ADMIN/workspace/cuoiky/sign_extend.v|
+!s101 -O0
+R10

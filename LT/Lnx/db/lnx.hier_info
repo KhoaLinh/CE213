@@ -1,0 +1,3091 @@
+|MUL
+A[0] => A_tri.DATAA
+A[1] => A_tri.DATAA
+A[2] => A_tri.DATAA
+A[3] => A_tri.DATAA
+A[4] => A_tri.DATAA
+A[5] => A_tri.DATAA
+A[6] => A_tri.DATAA
+A[7] => A_tri.DATAA
+A[8] => A_tri.DATAA
+A[9] => A_tri.DATAA
+A[10] => A_tri.DATAA
+A[11] => A_tri.DATAA
+A[12] => A_tri.DATAA
+A[13] => A_tri.DATAA
+A[14] => A_tri.DATAA
+A[15] => A_tri.DATAA
+B[0] => B_tri.DATAA
+B[1] => B_tri.DATAA
+B[2] => B_tri.DATAA
+B[3] => B_tri.DATAA
+B[4] => B_tri.DATAA
+B[5] => B_tri.DATAA
+B[6] => B_tri.DATAA
+B[7] => B_tri.DATAA
+B[8] => B_tri.DATAA
+B[9] => B_tri.DATAA
+B[10] => B_tri.DATAA
+B[11] => B_tri.DATAA
+B[12] => B_tri.DATAA
+B[13] => B_tri.DATAA
+B[14] => B_tri.DATAA
+B[15] => B_tri.DATAA
+CLK => CLK.IN3
+RESET => RESET.IN3
+LOAD => LOAD.IN3
+Wait <= OR16:getWait.port1
+Ready <= OR16:getReady.port1
+result[0] <= CAS32bit:CAS80.port4
+result[1] <= CAS32bit:CAS80.port4
+result[2] <= CAS32bit:CAS80.port4
+result[3] <= CAS32bit:CAS80.port4
+result[4] <= CAS32bit:CAS80.port4
+result[5] <= CAS32bit:CAS80.port4
+result[6] <= CAS32bit:CAS80.port4
+result[7] <= CAS32bit:CAS80.port4
+result[8] <= CAS32bit:CAS80.port4
+result[9] <= CAS32bit:CAS80.port4
+result[10] <= CAS32bit:CAS80.port4
+result[11] <= CAS32bit:CAS80.port4
+result[12] <= CAS32bit:CAS80.port4
+result[13] <= CAS32bit:CAS80.port4
+result[14] <= CAS32bit:CAS80.port4
+result[15] <= CAS32bit:CAS80.port4
+result[16] <= CAS32bit:CAS80.port4
+result[17] <= CAS32bit:CAS80.port4
+result[18] <= CAS32bit:CAS80.port4
+result[19] <= CAS32bit:CAS80.port4
+result[20] <= CAS32bit:CAS80.port4
+result[21] <= CAS32bit:CAS80.port4
+result[22] <= CAS32bit:CAS80.port4
+result[23] <= CAS32bit:CAS80.port4
+result[24] <= CAS32bit:CAS80.port4
+result[25] <= CAS32bit:CAS80.port4
+result[26] <= CAS32bit:CAS80.port4
+result[27] <= CAS32bit:CAS80.port4
+result[28] <= CAS32bit:CAS80.port4
+result[29] <= CAS32bit:CAS80.port4
+result[30] <= CAS32bit:CAS80.port4
+result[31] <= CAS32bit:CAS80.port4
+
+
+|MUL|REG16bit:regB
+CLK => CLK.IN2
+RESET => RESET.IN2
+LOAD => LOAD.IN2
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_now[8] => reg_now[8].IN1
+reg_now[9] => reg_now[9].IN1
+reg_now[10] => reg_now[10].IN1
+reg_now[11] => reg_now[11].IN1
+reg_now[12] => reg_now[12].IN1
+reg_now[13] => reg_now[13].IN1
+reg_now[14] => reg_now[14].IN1
+reg_now[15] => reg_now[15].IN1
+reg_next[0] <= REG8bit:REG0.port4
+reg_next[1] <= REG8bit:REG0.port4
+reg_next[2] <= REG8bit:REG0.port4
+reg_next[3] <= REG8bit:REG0.port4
+reg_next[4] <= REG8bit:REG0.port4
+reg_next[5] <= REG8bit:REG0.port4
+reg_next[6] <= REG8bit:REG0.port4
+reg_next[7] <= REG8bit:REG0.port4
+reg_next[8] <= REG8bit:REG1.port4
+reg_next[9] <= REG8bit:REG1.port4
+reg_next[10] <= REG8bit:REG1.port4
+reg_next[11] <= REG8bit:REG1.port4
+reg_next[12] <= REG8bit:REG1.port4
+reg_next[13] <= REG8bit:REG1.port4
+reg_next[14] <= REG8bit:REG1.port4
+reg_next[15] <= REG8bit:REG1.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG0|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG16bit:regB|REG8bit:REG1|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA
+CLK => CLK.IN2
+RESET => RESET.IN2
+LOAD => LOAD.IN2
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_now[8] => reg_now[8].IN1
+reg_now[9] => reg_now[9].IN1
+reg_now[10] => reg_now[10].IN1
+reg_now[11] => reg_now[11].IN1
+reg_now[12] => reg_now[12].IN1
+reg_now[13] => reg_now[13].IN1
+reg_now[14] => reg_now[14].IN1
+reg_now[15] => reg_now[15].IN1
+reg_now[16] => reg_now[16].IN1
+reg_now[17] => reg_now[17].IN1
+reg_now[18] => reg_now[18].IN1
+reg_now[19] => reg_now[19].IN1
+reg_now[20] => reg_now[20].IN1
+reg_now[21] => reg_now[21].IN1
+reg_now[22] => reg_now[22].IN1
+reg_now[23] => reg_now[23].IN1
+reg_now[24] => reg_now[24].IN1
+reg_now[25] => reg_now[25].IN1
+reg_now[26] => reg_now[26].IN1
+reg_now[27] => reg_now[27].IN1
+reg_now[28] => reg_now[28].IN1
+reg_now[29] => reg_now[29].IN1
+reg_now[30] => reg_now[30].IN1
+reg_now[31] => reg_now[31].IN1
+reg_next[0] <= REG16bit:REG0.port4
+reg_next[1] <= REG16bit:REG0.port4
+reg_next[2] <= REG16bit:REG0.port4
+reg_next[3] <= REG16bit:REG0.port4
+reg_next[4] <= REG16bit:REG0.port4
+reg_next[5] <= REG16bit:REG0.port4
+reg_next[6] <= REG16bit:REG0.port4
+reg_next[7] <= REG16bit:REG0.port4
+reg_next[8] <= REG16bit:REG0.port4
+reg_next[9] <= REG16bit:REG0.port4
+reg_next[10] <= REG16bit:REG0.port4
+reg_next[11] <= REG16bit:REG0.port4
+reg_next[12] <= REG16bit:REG0.port4
+reg_next[13] <= REG16bit:REG0.port4
+reg_next[14] <= REG16bit:REG0.port4
+reg_next[15] <= REG16bit:REG0.port4
+reg_next[16] <= REG16bit:REG1.port4
+reg_next[17] <= REG16bit:REG1.port4
+reg_next[18] <= REG16bit:REG1.port4
+reg_next[19] <= REG16bit:REG1.port4
+reg_next[20] <= REG16bit:REG1.port4
+reg_next[21] <= REG16bit:REG1.port4
+reg_next[22] <= REG16bit:REG1.port4
+reg_next[23] <= REG16bit:REG1.port4
+reg_next[24] <= REG16bit:REG1.port4
+reg_next[25] <= REG16bit:REG1.port4
+reg_next[26] <= REG16bit:REG1.port4
+reg_next[27] <= REG16bit:REG1.port4
+reg_next[28] <= REG16bit:REG1.port4
+reg_next[29] <= REG16bit:REG1.port4
+reg_next[30] <= REG16bit:REG1.port4
+reg_next[31] <= REG16bit:REG1.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0
+CLK => CLK.IN2
+RESET => RESET.IN2
+LOAD => LOAD.IN2
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_now[8] => reg_now[8].IN1
+reg_now[9] => reg_now[9].IN1
+reg_now[10] => reg_now[10].IN1
+reg_now[11] => reg_now[11].IN1
+reg_now[12] => reg_now[12].IN1
+reg_now[13] => reg_now[13].IN1
+reg_now[14] => reg_now[14].IN1
+reg_now[15] => reg_now[15].IN1
+reg_next[0] <= REG8bit:REG0.port4
+reg_next[1] <= REG8bit:REG0.port4
+reg_next[2] <= REG8bit:REG0.port4
+reg_next[3] <= REG8bit:REG0.port4
+reg_next[4] <= REG8bit:REG0.port4
+reg_next[5] <= REG8bit:REG0.port4
+reg_next[6] <= REG8bit:REG0.port4
+reg_next[7] <= REG8bit:REG0.port4
+reg_next[8] <= REG8bit:REG1.port4
+reg_next[9] <= REG8bit:REG1.port4
+reg_next[10] <= REG8bit:REG1.port4
+reg_next[11] <= REG8bit:REG1.port4
+reg_next[12] <= REG8bit:REG1.port4
+reg_next[13] <= REG8bit:REG1.port4
+reg_next[14] <= REG8bit:REG1.port4
+reg_next[15] <= REG8bit:REG1.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG0|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG0|REG8bit:REG1|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1
+CLK => CLK.IN2
+RESET => RESET.IN2
+LOAD => LOAD.IN2
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_now[8] => reg_now[8].IN1
+reg_now[9] => reg_now[9].IN1
+reg_now[10] => reg_now[10].IN1
+reg_now[11] => reg_now[11].IN1
+reg_now[12] => reg_now[12].IN1
+reg_now[13] => reg_now[13].IN1
+reg_now[14] => reg_now[14].IN1
+reg_now[15] => reg_now[15].IN1
+reg_next[0] <= REG8bit:REG0.port4
+reg_next[1] <= REG8bit:REG0.port4
+reg_next[2] <= REG8bit:REG0.port4
+reg_next[3] <= REG8bit:REG0.port4
+reg_next[4] <= REG8bit:REG0.port4
+reg_next[5] <= REG8bit:REG0.port4
+reg_next[6] <= REG8bit:REG0.port4
+reg_next[7] <= REG8bit:REG0.port4
+reg_next[8] <= REG8bit:REG1.port4
+reg_next[9] <= REG8bit:REG1.port4
+reg_next[10] <= REG8bit:REG1.port4
+reg_next[11] <= REG8bit:REG1.port4
+reg_next[12] <= REG8bit:REG1.port4
+reg_next[13] <= REG8bit:REG1.port4
+reg_next[14] <= REG8bit:REG1.port4
+reg_next[15] <= REG8bit:REG1.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG0|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regA|REG16bit:REG1|REG8bit:REG1|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|AndRow:Row0
+IN[0] => and00.IN0
+IN[1] => and01.IN0
+IN[2] => and02.IN0
+IN[3] => and03.IN0
+IN[4] => and04.IN0
+IN[5] => and05.IN0
+IN[6] => and06.IN0
+IN[7] => and07.IN0
+IN[8] => and08.IN0
+IN[9] => and09.IN0
+IN[10] => and10.IN0
+IN[11] => and11.IN0
+IN[12] => and12.IN0
+IN[13] => and13.IN0
+IN[14] => and14.IN0
+IN[15] => and15.IN0
+IN[16] => and16.IN0
+IN[17] => and17.IN0
+IN[18] => and18.IN0
+IN[19] => and19.IN0
+IN[20] => and20.IN0
+IN[21] => and21.IN0
+IN[22] => and22.IN0
+IN[23] => and23.IN0
+IN[24] => and24.IN0
+IN[25] => and25.IN0
+IN[26] => and26.IN0
+IN[27] => and27.IN0
+IN[28] => and28.IN0
+IN[29] => and29.IN0
+IN[30] => and30.IN0
+IN[31] => and31.IN0
+Bbit => and31.IN1
+Bbit => and30.IN1
+Bbit => and29.IN1
+Bbit => and28.IN1
+Bbit => and27.IN1
+Bbit => and26.IN1
+Bbit => and25.IN1
+Bbit => and24.IN1
+Bbit => and23.IN1
+Bbit => and22.IN1
+Bbit => and21.IN1
+Bbit => and20.IN1
+Bbit => and19.IN1
+Bbit => and18.IN1
+Bbit => and17.IN1
+Bbit => and16.IN1
+Bbit => and15.IN1
+Bbit => and14.IN1
+Bbit => and13.IN1
+Bbit => and12.IN1
+Bbit => and11.IN1
+Bbit => and10.IN1
+Bbit => and09.IN1
+Bbit => and08.IN1
+Bbit => and07.IN1
+Bbit => and06.IN1
+Bbit => and05.IN1
+Bbit => and04.IN1
+Bbit => and03.IN1
+Bbit => and02.IN1
+Bbit => and01.IN1
+Bbit => and00.IN1
+OUT[0] <= and00.DB_MAX_OUTPUT_PORT_TYPE
+OUT[1] <= and01.DB_MAX_OUTPUT_PORT_TYPE
+OUT[2] <= and02.DB_MAX_OUTPUT_PORT_TYPE
+OUT[3] <= and03.DB_MAX_OUTPUT_PORT_TYPE
+OUT[4] <= and04.DB_MAX_OUTPUT_PORT_TYPE
+OUT[5] <= and05.DB_MAX_OUTPUT_PORT_TYPE
+OUT[6] <= and06.DB_MAX_OUTPUT_PORT_TYPE
+OUT[7] <= and07.DB_MAX_OUTPUT_PORT_TYPE
+OUT[8] <= and08.DB_MAX_OUTPUT_PORT_TYPE
+OUT[9] <= and09.DB_MAX_OUTPUT_PORT_TYPE
+OUT[10] <= and10.DB_MAX_OUTPUT_PORT_TYPE
+OUT[11] <= and11.DB_MAX_OUTPUT_PORT_TYPE
+OUT[12] <= and12.DB_MAX_OUTPUT_PORT_TYPE
+OUT[13] <= and13.DB_MAX_OUTPUT_PORT_TYPE
+OUT[14] <= and14.DB_MAX_OUTPUT_PORT_TYPE
+OUT[15] <= and15.DB_MAX_OUTPUT_PORT_TYPE
+OUT[16] <= and16.DB_MAX_OUTPUT_PORT_TYPE
+OUT[17] <= and17.DB_MAX_OUTPUT_PORT_TYPE
+OUT[18] <= and18.DB_MAX_OUTPUT_PORT_TYPE
+OUT[19] <= and19.DB_MAX_OUTPUT_PORT_TYPE
+OUT[20] <= and20.DB_MAX_OUTPUT_PORT_TYPE
+OUT[21] <= and21.DB_MAX_OUTPUT_PORT_TYPE
+OUT[22] <= and22.DB_MAX_OUTPUT_PORT_TYPE
+OUT[23] <= and23.DB_MAX_OUTPUT_PORT_TYPE
+OUT[24] <= and24.DB_MAX_OUTPUT_PORT_TYPE
+OUT[25] <= and25.DB_MAX_OUTPUT_PORT_TYPE
+OUT[26] <= and26.DB_MAX_OUTPUT_PORT_TYPE
+OUT[27] <= and27.DB_MAX_OUTPUT_PORT_TYPE
+OUT[28] <= and28.DB_MAX_OUTPUT_PORT_TYPE
+OUT[29] <= and29.DB_MAX_OUTPUT_PORT_TYPE
+OUT[30] <= and30.DB_MAX_OUTPUT_PORT_TYPE
+OUT[31] <= and31.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp
+CLK => CLK.IN2
+RESET => RESET.IN2
+LOAD => LOAD.IN2
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_now[8] => reg_now[8].IN1
+reg_now[9] => reg_now[9].IN1
+reg_now[10] => reg_now[10].IN1
+reg_now[11] => reg_now[11].IN1
+reg_now[12] => reg_now[12].IN1
+reg_now[13] => reg_now[13].IN1
+reg_now[14] => reg_now[14].IN1
+reg_now[15] => reg_now[15].IN1
+reg_now[16] => reg_now[16].IN1
+reg_now[17] => reg_now[17].IN1
+reg_now[18] => reg_now[18].IN1
+reg_now[19] => reg_now[19].IN1
+reg_now[20] => reg_now[20].IN1
+reg_now[21] => reg_now[21].IN1
+reg_now[22] => reg_now[22].IN1
+reg_now[23] => reg_now[23].IN1
+reg_now[24] => reg_now[24].IN1
+reg_now[25] => reg_now[25].IN1
+reg_now[26] => reg_now[26].IN1
+reg_now[27] => reg_now[27].IN1
+reg_now[28] => reg_now[28].IN1
+reg_now[29] => reg_now[29].IN1
+reg_now[30] => reg_now[30].IN1
+reg_now[31] => reg_now[31].IN1
+reg_next[0] <= REG16bit:REG0.port4
+reg_next[1] <= REG16bit:REG0.port4
+reg_next[2] <= REG16bit:REG0.port4
+reg_next[3] <= REG16bit:REG0.port4
+reg_next[4] <= REG16bit:REG0.port4
+reg_next[5] <= REG16bit:REG0.port4
+reg_next[6] <= REG16bit:REG0.port4
+reg_next[7] <= REG16bit:REG0.port4
+reg_next[8] <= REG16bit:REG0.port4
+reg_next[9] <= REG16bit:REG0.port4
+reg_next[10] <= REG16bit:REG0.port4
+reg_next[11] <= REG16bit:REG0.port4
+reg_next[12] <= REG16bit:REG0.port4
+reg_next[13] <= REG16bit:REG0.port4
+reg_next[14] <= REG16bit:REG0.port4
+reg_next[15] <= REG16bit:REG0.port4
+reg_next[16] <= REG16bit:REG1.port4
+reg_next[17] <= REG16bit:REG1.port4
+reg_next[18] <= REG16bit:REG1.port4
+reg_next[19] <= REG16bit:REG1.port4
+reg_next[20] <= REG16bit:REG1.port4
+reg_next[21] <= REG16bit:REG1.port4
+reg_next[22] <= REG16bit:REG1.port4
+reg_next[23] <= REG16bit:REG1.port4
+reg_next[24] <= REG16bit:REG1.port4
+reg_next[25] <= REG16bit:REG1.port4
+reg_next[26] <= REG16bit:REG1.port4
+reg_next[27] <= REG16bit:REG1.port4
+reg_next[28] <= REG16bit:REG1.port4
+reg_next[29] <= REG16bit:REG1.port4
+reg_next[30] <= REG16bit:REG1.port4
+reg_next[31] <= REG16bit:REG1.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0
+CLK => CLK.IN2
+RESET => RESET.IN2
+LOAD => LOAD.IN2
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_now[8] => reg_now[8].IN1
+reg_now[9] => reg_now[9].IN1
+reg_now[10] => reg_now[10].IN1
+reg_now[11] => reg_now[11].IN1
+reg_now[12] => reg_now[12].IN1
+reg_now[13] => reg_now[13].IN1
+reg_now[14] => reg_now[14].IN1
+reg_now[15] => reg_now[15].IN1
+reg_next[0] <= REG8bit:REG0.port4
+reg_next[1] <= REG8bit:REG0.port4
+reg_next[2] <= REG8bit:REG0.port4
+reg_next[3] <= REG8bit:REG0.port4
+reg_next[4] <= REG8bit:REG0.port4
+reg_next[5] <= REG8bit:REG0.port4
+reg_next[6] <= REG8bit:REG0.port4
+reg_next[7] <= REG8bit:REG0.port4
+reg_next[8] <= REG8bit:REG1.port4
+reg_next[9] <= REG8bit:REG1.port4
+reg_next[10] <= REG8bit:REG1.port4
+reg_next[11] <= REG8bit:REG1.port4
+reg_next[12] <= REG8bit:REG1.port4
+reg_next[13] <= REG8bit:REG1.port4
+reg_next[14] <= REG8bit:REG1.port4
+reg_next[15] <= REG8bit:REG1.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG0|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG0|REG8bit:REG1|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1
+CLK => CLK.IN2
+RESET => RESET.IN2
+LOAD => LOAD.IN2
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_now[8] => reg_now[8].IN1
+reg_now[9] => reg_now[9].IN1
+reg_now[10] => reg_now[10].IN1
+reg_now[11] => reg_now[11].IN1
+reg_now[12] => reg_now[12].IN1
+reg_now[13] => reg_now[13].IN1
+reg_now[14] => reg_now[14].IN1
+reg_now[15] => reg_now[15].IN1
+reg_next[0] <= REG8bit:REG0.port4
+reg_next[1] <= REG8bit:REG0.port4
+reg_next[2] <= REG8bit:REG0.port4
+reg_next[3] <= REG8bit:REG0.port4
+reg_next[4] <= REG8bit:REG0.port4
+reg_next[5] <= REG8bit:REG0.port4
+reg_next[6] <= REG8bit:REG0.port4
+reg_next[7] <= REG8bit:REG0.port4
+reg_next[8] <= REG8bit:REG1.port4
+reg_next[9] <= REG8bit:REG1.port4
+reg_next[10] <= REG8bit:REG1.port4
+reg_next[11] <= REG8bit:REG1.port4
+reg_next[12] <= REG8bit:REG1.port4
+reg_next[13] <= REG8bit:REG1.port4
+reg_next[14] <= REG8bit:REG1.port4
+reg_next[15] <= REG8bit:REG1.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG0|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1
+CLK => CLK.IN8
+RESET => RESET.IN8
+LOAD => LOAD.IN8
+reg_now[0] => reg_now[0].IN1
+reg_now[1] => reg_now[1].IN1
+reg_now[2] => reg_now[2].IN1
+reg_now[3] => reg_now[3].IN1
+reg_now[4] => reg_now[4].IN1
+reg_now[5] => reg_now[5].IN1
+reg_now[6] => reg_now[6].IN1
+reg_now[7] => reg_now[7].IN1
+reg_next[0] <= REG:reg0.port4
+reg_next[1] <= REG:reg1.port4
+reg_next[2] <= REG:reg2.port4
+reg_next[3] <= REG:reg3.port4
+reg_next[4] <= REG:reg4.port4
+reg_next[5] <= REG:reg5.port4
+reg_next[6] <= REG:reg6.port4
+reg_next[7] <= REG:reg7.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg7
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg7|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg6
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg6|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg5
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg5|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg4
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg4|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg3
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg3|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg2|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg1|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REGISTER:reg0.port4
+
+
+|MUL|REG32bit:regTemp|REG16bit:REG1|REG8bit:REG1|REG:reg0|REGISTER:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80
+control => control.IN2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+cin => cin.IN1
+result[0] <= CAS16bit:CAS0.port4
+result[1] <= CAS16bit:CAS0.port4
+result[2] <= CAS16bit:CAS0.port4
+result[3] <= CAS16bit:CAS0.port4
+result[4] <= CAS16bit:CAS0.port4
+result[5] <= CAS16bit:CAS0.port4
+result[6] <= CAS16bit:CAS0.port4
+result[7] <= CAS16bit:CAS0.port4
+result[8] <= CAS16bit:CAS0.port4
+result[9] <= CAS16bit:CAS0.port4
+result[10] <= CAS16bit:CAS0.port4
+result[11] <= CAS16bit:CAS0.port4
+result[12] <= CAS16bit:CAS0.port4
+result[13] <= CAS16bit:CAS0.port4
+result[14] <= CAS16bit:CAS0.port4
+result[15] <= CAS16bit:CAS0.port4
+result[16] <= CAS16bit:CAS1.port4
+result[17] <= CAS16bit:CAS1.port4
+result[18] <= CAS16bit:CAS1.port4
+result[19] <= CAS16bit:CAS1.port4
+result[20] <= CAS16bit:CAS1.port4
+result[21] <= CAS16bit:CAS1.port4
+result[22] <= CAS16bit:CAS1.port4
+result[23] <= CAS16bit:CAS1.port4
+result[24] <= CAS16bit:CAS1.port4
+result[25] <= CAS16bit:CAS1.port4
+result[26] <= CAS16bit:CAS1.port4
+result[27] <= CAS16bit:CAS1.port4
+result[28] <= CAS16bit:CAS1.port4
+result[29] <= CAS16bit:CAS1.port4
+result[30] <= CAS16bit:CAS1.port4
+result[31] <= CAS16bit:CAS1.port4
+cout <= <GND>
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0
+control => control.IN2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+cin => cin.IN1
+result[0] <= CAS8bit:CAS0.port4
+result[1] <= CAS8bit:CAS0.port4
+result[2] <= CAS8bit:CAS0.port4
+result[3] <= CAS8bit:CAS0.port4
+result[4] <= CAS8bit:CAS0.port4
+result[5] <= CAS8bit:CAS0.port4
+result[6] <= CAS8bit:CAS0.port4
+result[7] <= CAS8bit:CAS0.port4
+result[8] <= CAS8bit:CAS1.port4
+result[9] <= CAS8bit:CAS1.port4
+result[10] <= CAS8bit:CAS1.port4
+result[11] <= CAS8bit:CAS1.port4
+result[12] <= CAS8bit:CAS1.port4
+result[13] <= CAS8bit:CAS1.port4
+result[14] <= CAS8bit:CAS1.port4
+result[15] <= CAS8bit:CAS1.port4
+cout <= <GND>
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0
+control => control.IN8
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+cin => cin.IN1
+result[0] <= CAS:CAS0.port4
+result[1] <= CAS:CAS1.port4
+result[2] <= CAS:CAS2.port4
+result[3] <= CAS:CAS3.port4
+result[4] <= CAS:CAS4.port4
+result[5] <= CAS:CAS5.port4
+result[6] <= CAS:CAS6.port4
+result[7] <= CAS:CAS7.port4
+cout <= CAS:CAS7.port5
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS0
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS0|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS1
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS1|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS2
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS2|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS3
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS3|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS4
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS4|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS5
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS5|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS6
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS6|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS7
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS0|CAS:CAS7|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1
+control => control.IN8
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+cin => cin.IN1
+result[0] <= CAS:CAS0.port4
+result[1] <= CAS:CAS1.port4
+result[2] <= CAS:CAS2.port4
+result[3] <= CAS:CAS3.port4
+result[4] <= CAS:CAS4.port4
+result[5] <= CAS:CAS5.port4
+result[6] <= CAS:CAS6.port4
+result[7] <= CAS:CAS7.port4
+cout <= CAS:CAS7.port5
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS0
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS0|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS1
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS1|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS2
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS2|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS3
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS3|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS4
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS4|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS5
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS5|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS6
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS6|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS7
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS0|CAS8bit:CAS1|CAS:CAS7|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1
+control => control.IN2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+cin => cin.IN1
+result[0] <= CAS8bit:CAS0.port4
+result[1] <= CAS8bit:CAS0.port4
+result[2] <= CAS8bit:CAS0.port4
+result[3] <= CAS8bit:CAS0.port4
+result[4] <= CAS8bit:CAS0.port4
+result[5] <= CAS8bit:CAS0.port4
+result[6] <= CAS8bit:CAS0.port4
+result[7] <= CAS8bit:CAS0.port4
+result[8] <= CAS8bit:CAS1.port4
+result[9] <= CAS8bit:CAS1.port4
+result[10] <= CAS8bit:CAS1.port4
+result[11] <= CAS8bit:CAS1.port4
+result[12] <= CAS8bit:CAS1.port4
+result[13] <= CAS8bit:CAS1.port4
+result[14] <= CAS8bit:CAS1.port4
+result[15] <= CAS8bit:CAS1.port4
+cout <= <GND>
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0
+control => control.IN8
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+cin => cin.IN1
+result[0] <= CAS:CAS0.port4
+result[1] <= CAS:CAS1.port4
+result[2] <= CAS:CAS2.port4
+result[3] <= CAS:CAS3.port4
+result[4] <= CAS:CAS4.port4
+result[5] <= CAS:CAS5.port4
+result[6] <= CAS:CAS6.port4
+result[7] <= CAS:CAS7.port4
+cout <= CAS:CAS7.port5
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS0
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS0|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS1
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS1|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS2
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS2|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS3
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS3|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS4
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS4|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS5
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS5|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS6
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS6|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS7
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS0|CAS:CAS7|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1
+control => control.IN8
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+cin => cin.IN1
+result[0] <= CAS:CAS0.port4
+result[1] <= CAS:CAS1.port4
+result[2] <= CAS:CAS2.port4
+result[3] <= CAS:CAS3.port4
+result[4] <= CAS:CAS4.port4
+result[5] <= CAS:CAS5.port4
+result[6] <= CAS:CAS6.port4
+result[7] <= CAS:CAS7.port4
+cout <= CAS:CAS7.port5
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS0
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS0|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS1
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS1|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS2
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS2|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS3
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS3|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS4
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS4|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS5
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS5|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS6
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS6|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS7
+control => xor0.IN0
+A => A.IN1
+B => xor0.IN1
+cin => cin.IN1
+sum <= FA:FA0.port3
+cout <= FA:FA0.port4
+
+
+|MUL|CAS32bit:CAS80|CAS16bit:CAS1|CAS8bit:CAS1|CAS:CAS7|FA:FA0
+a => xor1.IN0
+a => and2.IN0
+b => xor1.IN1
+b => and2.IN1
+cin => xor2.IN1
+cin => and1.IN1
+sum <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|OR16:getReady
+IN[0] => OUT.IN1
+IN[1] => OUT.IN1
+IN[2] => OUT.IN1
+IN[3] => OUT.IN1
+IN[4] => OUT.IN1
+IN[5] => OUT.IN1
+IN[6] => OUT.IN1
+IN[7] => OUT.IN1
+IN[8] => OUT.IN1
+IN[9] => OUT.IN1
+IN[10] => OUT.IN1
+IN[11] => OUT.IN1
+IN[12] => OUT.IN1
+IN[13] => OUT.IN1
+IN[14] => OUT.IN0
+IN[15] => OUT.IN1
+OUT <= OUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MUL|OR16:getWait
+IN[0] => OUT.IN1
+IN[1] => OUT.IN1
+IN[2] => OUT.IN1
+IN[3] => OUT.IN1
+IN[4] => OUT.IN1
+IN[5] => OUT.IN1
+IN[6] => OUT.IN1
+IN[7] => OUT.IN1
+IN[8] => OUT.IN1
+IN[9] => OUT.IN1
+IN[10] => OUT.IN1
+IN[11] => OUT.IN1
+IN[12] => OUT.IN1
+IN[13] => OUT.IN1
+IN[14] => OUT.IN0
+IN[15] => OUT.IN1
+OUT <= OUT.DB_MAX_OUTPUT_PORT_TYPE
+
+

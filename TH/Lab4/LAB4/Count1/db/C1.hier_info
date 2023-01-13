@@ -1,0 +1,90 @@
+|C1
+W => W.IN1
+CLK => CLK.IN1
+RESET => RESET.IN1
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|C1|NextStateLogic:NSL
+W => NextState.IN1
+W => NextState.IN1
+W => NextState.IN1
+CurrentState[0] => NextState.IN1
+CurrentState[0] => NextState.IN1
+CurrentState[0] => NextState.IN1
+CurrentState[0] => NextState.IN1
+CurrentState[0] => NextState.IN0
+CurrentState[1] => NextState.IN0
+CurrentState[1] => NextState.IN0
+CurrentState[1] => NextState.IN0
+CurrentState[2] => NextState.IN1
+CurrentState[2] => NextState.IN1
+CurrentState[2] => NextState.IN1
+CurrentState[2] => NextState.IN1
+NextState[0] <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+NextState[1] <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+NextState[2] <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|C1|StateReg:SR
+CLK => CLK.IN3
+RESET => RESET.IN3
+CurrentState[0] => CurrentState[0].IN1
+CurrentState[1] => CurrentState[1].IN1
+CurrentState[2] => CurrentState[2].IN1
+NextState[0] <= register:reg0.port4
+NextState[1] <= register:reg1.port4
+NextState[2] <= register:reg2.port4
+
+
+|C1|StateReg:SR|register:reg0
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REG:reg0.port4
+
+
+|C1|StateReg:SR|register:reg0|REG:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|C1|StateReg:SR|register:reg1
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REG:reg0.port4
+
+
+|C1|StateReg:SR|register:reg1|REG:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|C1|StateReg:SR|register:reg2
+CLK => CLK.IN1
+RESET => RESET.IN1
+LOAD => Q.OUTPUTSELECT
+IN => Q.DATAB
+Qnext <= REG:reg0.port4
+
+
+|C1|StateReg:SR|register:reg2|REG:reg0
+IN => Q~reg0.DATAIN
+CLR => Q~reg0.ACLR
+CLR => Q.IN0
+SET => Q.IN1
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

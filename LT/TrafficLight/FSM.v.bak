@@ -1,0 +1,29 @@
+module State(full,c,reset,clk,state,next_state)
+input full,c,reset,clk,state;
+output next_state;
+
+always@ (state or c or full)
+    case(state)		// state transition
+    S0:
+	if(full & c)
+		next_state = S1 ;
+	else
+	   next_state = s0; 
+   S1:
+	if (full) 
+		next_state = S2 ;
+	else begin
+		next_state = S1 ;
+    S2:
+	if(full)
+		next_state = S3 ;
+	else begin
+		next_state = S2 ;
+ S3:
+	if(full)
+		next_state = S0 ;
+	else
+	    begin
+		next_state = S3 ;
+    endcase
+endmodule

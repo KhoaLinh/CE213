@@ -1,0 +1,9 @@
+module Controller (OE, Op1, Op2, Start, Reset, Clk);
+	
+	output [11;0]OE;
+	output [1:0]Op1;
+	output [1:0]Op2;
+	input Start, Reset, Clk;
+	
+	D_flipflop Dff0(Q0, D0, Clk);
+endmodule

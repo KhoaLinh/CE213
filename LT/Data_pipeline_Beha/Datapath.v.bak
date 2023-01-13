@@ -1,0 +1,3 @@
+module Datapath(out,inA,inB,load,oe,c1,c2);
+	output [15:0]out;
+	input 

@@ -1,0 +1,14 @@
+module Add16(o,a,b);
+	output o[15:0];
+	input a[15:0];
+	input b[15:0];
+	
+	Full_adder adder0(s0,c0,a[0],b[0],0);
+	Full_adder adder1(s1,c1,a[1],b[1],c0);
+	Full_adder adder2(s2,c2,a[2],b[2],c1);
+	Full_adder adder3(s3,c3,a[3],b[3],c2);
+	Full_adder adder4(s4,c4,a[4],b[4],c3);
+	Full_adder adder5(s5,c5,a[5],b[5],c4);
+	Full_adder adder6(s6,c6,a[6],b[6],c5);
+	Full_adder adder7(s7,c7,a[7],b[7],c6);
+	

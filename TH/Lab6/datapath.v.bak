@@ -1,0 +1,24 @@
+`include "control_unit.v"
+`include "mux.v"
+`include "Registers.v"
+module datapath (code,
+                 clk);
+    input [31:0] code;
+    input clk;
+    
+    wire RegDst,MemRead,MemWrite,MemToReg,ALUSrc,RegWrite;
+    wire [1:0] ALUOp;
+    wire [3:0] ALUControl;
+    wire [4:0] WR;
+    wire [31:0] WD;
+    wire [4:0] RR1,RR2;
+    wire [31:0] RD1,RD2;
+    wire [31:0] ALUOut;
+    
+    
+    control_unit control(RegDst,MemRead,MemWrite,MemToReg,ALUOp,ALUSrc,ALUControl,RegWrite,code[31:26]);
+    Registers register(RD1,RD2,RR1,RR2,WR,WD,RegWrite,clk);
+    
+    mux RegDstmux[4:0](code[20:16],code[15:11],RegDst,WR);
+    
+endmodule

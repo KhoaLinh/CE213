@@ -1,0 +1,47 @@
+|Controller
+load[0] <= load[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+load[1] <= load[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+load[2] <= load[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+load[3] <= load[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+load[4] <= load[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[0] <= oe[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[1] <= oe[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[2] <= oe[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[3] <= oe[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[4] <= oe[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[5] <= oe[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[6] <= oe[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[7] <= oe[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[8] <= oe[8]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[9] <= oe[9]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[10] <= oe[10]$latch.DB_MAX_OUTPUT_PORT_TYPE
+oe[11] <= oe[11]$latch.DB_MAX_OUTPUT_PORT_TYPE
+c1[0] <= c1[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+c1[1] <= c1[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+c2[0] <= c2[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+c2[1] <= c2[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+start => start.IN1
+reset => reset.IN1
+clk => clk.IN1
+count[0] <= Counter:counter.port0
+count[1] <= Counter:counter.port0
+count[2] <= Counter:counter.port0
+count[3] <= Counter:counter.port0
+
+
+|Controller|Counter:counter
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+start => always0.IN1
+reset => out[0]~reg0.ACLR
+reset => out[1]~reg0.ACLR
+reset => out[2]~reg0.ACLR
+reset => out[3]~reg0.ACLR
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+
+

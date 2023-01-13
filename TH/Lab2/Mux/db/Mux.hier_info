@@ -1,0 +1,15 @@
+|Mux
+m <= Mux2to1_1bit:inst.m
+x => Mux2to1_1bit:inst.x
+y => Mux2to1_1bit:inst.y
+s => Mux2to1_1bit:inst.s
+
+
+|Mux|Mux2to1_1bit:inst
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

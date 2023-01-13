@@ -1,0 +1,556 @@
+$comment
+	File created using the following command:
+		vcd file SquareRoot.msim.vcd -direction
+$end
+$date
+	Wed Oct 19 10:08:21 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Controller_vlg_vec_tst $end
+$var reg 1 ! Clk $end
+$var reg 1 " Reset $end
+$var reg 1 # Start $end
+$var wire 1 $ OE [11] $end
+$var wire 1 % OE [10] $end
+$var wire 1 & OE [9] $end
+$var wire 1 ' OE [8] $end
+$var wire 1 ( OE [7] $end
+$var wire 1 ) OE [6] $end
+$var wire 1 * OE [5] $end
+$var wire 1 + OE [4] $end
+$var wire 1 , OE [3] $end
+$var wire 1 - OE [2] $end
+$var wire 1 . OE [1] $end
+$var wire 1 / OE [0] $end
+$var wire 1 0 Op1 [1] $end
+$var wire 1 1 Op1 [0] $end
+$var wire 1 2 Op2 [1] $end
+$var wire 1 3 Op2 [0] $end
+$var wire 1 4 Q [3] $end
+$var wire 1 5 Q [2] $end
+$var wire 1 6 Q [1] $end
+$var wire 1 7 Q [0] $end
+$var wire 1 8 R1 $end
+$var wire 1 9 R2 $end
+$var wire 1 : R3 $end
+$var wire 1 ; R4 $end
+$var wire 1 < R5 $end
+$var wire 1 = sampler $end
+$scope module i1 $end
+$var wire 1 > gnd $end
+$var wire 1 ? vcc $end
+$var wire 1 @ unknown $end
+$var tri1 1 A devclrn $end
+$var tri1 1 B devpor $end
+$var tri1 1 C devoe $end
+$var wire 1 D Reset~combout $end
+$var wire 1 E Clk~combout $end
+$var wire 1 F controllerD|D1|or1~0_combout $end
+$var wire 1 G Dff1|n1~0_combout $end
+$var wire 1 H controllerD|D2|or1~0_combout $end
+$var wire 1 I Dff2|n1~0_combout $end
+$var wire 1 J Start~combout $end
+$var wire 1 K controllerD|D0|or1~0_combout $end
+$var wire 1 L controllerD|D0|or1~1_combout $end
+$var wire 1 M Dff0|n1~0_combout $end
+$var wire 1 N controllerD|D3|or1~0_combout $end
+$var wire 1 O Dff3|n1~0_combout $end
+$var wire 1 P controllerD|D3|or1~1_combout $end
+$var wire 1 Q controllerD|D2|or1~1_combout $end
+$var wire 1 R Decoder|or12~combout $end
+$var wire 1 S Decoder|or11~0_combout $end
+$var wire 1 T Decoder|or11~1_combout $end
+$var wire 1 U Decoder|or10~0_combout $end
+$var wire 1 V Decoder|and40~2_combout $end
+$var wire 1 W Decoder|or8~0_combout $end
+$var wire 1 X Decoder|and2~combout $end
+$var wire 1 Y Decoder|and40~combout $end
+$var wire 1 Z Decoder|and7~combout $end
+$var wire 1 [ Decoder|or6~combout $end
+$var wire 1 \ Decoder|and8~combout $end
+$var wire 1 ] Decoder|or2~0_combout $end
+$var wire 1 ^ Decoder|or1~0_combout $end
+$var wire 1 _ Decoder|or4~0_combout $end
+$var wire 1 ` Decoder|or3~combout $end
+$var wire 1 a Decoder|and1~combout $end
+$var wire 1 b Decoder|and33~combout $end
+$var wire 1 c Decoder|and34~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x1
+x0
+x3
+x2
+x7
+x6
+x5
+x4
+x8
+x9
+x:
+x;
+x<
+x=
+0>
+1?
+x@
+1A
+1B
+1C
+0D
+0E
+xF
+xG
+xH
+xI
+0J
+xK
+xL
+xM
+xN
+xO
+xP
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+x[
+x\
+x]
+x^
+x_
+x`
+xa
+xb
+xc
+$end
+#10000
+1!
+1#
+1E
+1J
+0=
+#20000
+0!
+0E
+1=
+#30000
+0#
+1!
+0J
+1E
+0=
+#40000
+0!
+0E
+1=
+#50000
+1!
+1E
+0=
+#60000
+0!
+0E
+1=
+#70000
+1!
+1E
+0=
+#80000
+0!
+0E
+1=
+#90000
+1!
+1E
+0=
+#100000
+0!
+0E
+1=
+#110000
+1!
+1E
+0=
+#120000
+0!
+0E
+1=
+#130000
+1!
+1E
+0=
+#140000
+0!
+0E
+1=
+#150000
+1!
+1E
+0=
+#160000
+0!
+0E
+1=
+#170000
+1!
+1E
+0=
+#180000
+0!
+0E
+1=
+#190000
+1!
+1E
+0=
+#200000
+0!
+0E
+1=
+#210000
+1!
+1E
+0=
+#220000
+0!
+0E
+1=
+#230000
+1!
+1E
+0=
+#240000
+0!
+0E
+1=
+#250000
+1!
+1E
+0=
+#260000
+0!
+0E
+1=
+#270000
+1!
+1E
+0=
+#280000
+0!
+0E
+1=
+#290000
+1!
+1E
+0=
+#300000
+0!
+0E
+1=
+#310000
+1!
+1E
+0=
+#320000
+0!
+0E
+1=
+#330000
+1!
+1E
+0=
+#340000
+0!
+0E
+1=
+#350000
+1!
+1E
+0=
+#360000
+0!
+0E
+1=
+#370000
+1!
+1E
+0=
+#380000
+0!
+0E
+1=
+#390000
+1!
+1E
+0=
+#400000
+0!
+0E
+1=
+#410000
+1!
+1E
+0=
+#420000
+0!
+0E
+1=
+#430000
+1!
+1E
+0=
+#440000
+0!
+0E
+1=
+#450000
+1!
+1E
+0=
+#460000
+0!
+0E
+1=
+#470000
+1!
+1E
+0=
+#480000
+0!
+0E
+1=
+#490000
+1!
+1E
+0=
+#500000
+0!
+0E
+1=
+#510000
+1!
+1E
+0=
+#520000
+0!
+0E
+1=
+#530000
+1!
+1E
+0=
+#540000
+0!
+0E
+1=
+#550000
+1!
+1E
+0=
+#560000
+0!
+0E
+1=
+#570000
+1!
+1E
+0=
+#580000
+0!
+0E
+1=
+#590000
+1!
+1E
+0=
+#600000
+0!
+0E
+1=
+#610000
+1!
+1E
+0=
+#620000
+0!
+0E
+1=
+#630000
+1!
+1E
+0=
+#640000
+0!
+0E
+1=
+#650000
+1!
+1E
+0=
+#660000
+0!
+0E
+1=
+#670000
+1!
+1E
+0=
+#680000
+0!
+0E
+1=
+#690000
+1!
+1E
+0=
+#700000
+0!
+0E
+1=
+#710000
+1!
+1E
+0=
+#720000
+0!
+0E
+1=
+#730000
+1!
+1E
+0=
+#740000
+0!
+0E
+1=
+#750000
+1!
+1E
+0=
+#760000
+0!
+0E
+1=
+#770000
+1!
+1E
+0=
+#780000
+0!
+0E
+1=
+#790000
+1!
+1E
+0=
+#800000
+0!
+0E
+1=
+#810000
+1!
+1E
+0=
+#820000
+0!
+0E
+1=
+#830000
+1!
+1E
+0=
+#840000
+0!
+0E
+1=
+#850000
+1!
+1E
+0=
+#860000
+0!
+0E
+1=
+#870000
+1!
+1E
+0=
+#880000
+0!
+0E
+1=
+#890000
+1!
+1E
+0=
+#900000
+0!
+0E
+1=
+#910000
+1!
+1E
+0=
+#920000
+0!
+0E
+1=
+#930000
+1!
+1E
+0=
+#940000
+0!
+0E
+1=
+#950000
+1!
+1E
+0=
+#960000
+0!
+0E
+1=
+#970000
+1!
+1E
+0=
+#980000
+0!
+0E
+1=
+#990000
+1!
+1E
+0=
+#1000000

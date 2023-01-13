@@ -1,0 +1,121 @@
+D:/quartus/HDL/coDiem/cuoiky/cuoiky/tb.v {1 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/quartus/HDL/coDiem/cuoiky/cuoiky/mux.v {1 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} D:/quartus/HDL/coDiem/cuoiky/cuoiky/ALU.v {1 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/quartus/HDL/coDiem/cuoiky/cuoiky/datapath.v {1 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v {2 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Registers
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(21): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(24): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(29): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(30): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(31): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(32): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(40): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(46): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(47): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/quartus/HDL/coDiem/cuoiky/cuoiky/Registers.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	Registers
+
+} {} {}} D:/quartus/HDL/coDiem/cuoiky/cuoiky/sign_extend.v {1 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/sign_extend.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} D:/quartus/HDL/coDiem/cuoiky/cuoiky/tbALU.v {1 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/tbALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tbALU
+
+Top level modules:
+	tbALU
+
+} {} {}} D:/quartus/HDL/coDiem/cuoiky/cuoiky/control_unit.v {1 {vlog -work work D:/quartus/HDL/coDiem/cuoiky/cuoiky/control_unit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}}

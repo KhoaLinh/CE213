@@ -1,0 +1,468 @@
+Analysis & Synthesis report for SquareRoot
+Tue Nov 29 23:30:16 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Logic Cells Representing Combinational Loops
+  9. General Register Statistics
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
+ 12. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Nov 29 23:30:16 2022           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; SquareRoot                                      ;
+; Top-level Entity Name              ; Controller                                      ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 29                                              ;
+;     Total combinational functions  ; 29                                              ;
+;     Dedicated logic registers      ; 0                                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 28                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C35F672C6       ;                    ;
+; Top-level entity name                                                      ; Controller         ; SquareRoot         ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                      ;
++----------------------------------+-----------------+------------------------+-------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path        ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------+---------+
+; Controller_D3.v                  ; yes             ; User Verilog HDL File  ; D:/Square root/Controller_D3.v      ;         ;
+; Controller_D2.v                  ; yes             ; User Verilog HDL File  ; D:/Square root/Controller_D2.v      ;         ;
+; Controller_D1.v                  ; yes             ; User Verilog HDL File  ; D:/Square root/Controller_D1.v      ;         ;
+; Controller_D0.v                  ; yes             ; User Verilog HDL File  ; D:/Square root/Controller_D0.v      ;         ;
+; Controller_Decoder.v             ; yes             ; User Verilog HDL File  ; D:/Square root/Controller_Decoder.v ;         ;
+; Controller.v                     ; yes             ; User Verilog HDL File  ; D:/Square root/Controller.v         ;         ;
+; nand_gate.v                      ; yes             ; User Verilog HDL File  ; D:/Square root/nand_gate.v          ;         ;
+; not_gate.v                       ; yes             ; User Verilog HDL File  ; D:/Square root/not_gate.v           ;         ;
+; d_ff_struct.v                    ; yes             ; User Verilog HDL File  ; D:/Square root/d_ff_struct.v        ;         ;
+; Controller_D.v                   ; yes             ; User Verilog HDL File  ; D:/Square root/Controller_D.v       ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------+---------+
+
+
++------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                        ;
++---------------------------------------------+--------------------------------------+
+; Resource                                    ; Usage                                ;
++---------------------------------------------+--------------------------------------+
+; Estimated Total logic elements              ; 29                                   ;
+;                                             ;                                      ;
+; Total combinational functions               ; 29                                   ;
+; Logic element usage by number of LUT inputs ;                                      ;
+;     -- 4 input functions                    ; 22                                   ;
+;     -- 3 input functions                    ; 6                                    ;
+;     -- <=2 input functions                  ; 1                                    ;
+;                                             ;                                      ;
+; Logic elements by mode                      ;                                      ;
+;     -- normal mode                          ; 29                                   ;
+;     -- arithmetic mode                      ; 0                                    ;
+;                                             ;                                      ;
+; Total registers                             ; 0                                    ;
+;     -- Dedicated logic registers            ; 0                                    ;
+;     -- I/O registers                        ; 0                                    ;
+;                                             ;                                      ;
+; I/O pins                                    ; 28                                   ;
+; Embedded Multiplier 9-bit elements          ; 0                                    ;
+; Maximum fan-out node                        ; d_ff_struct:Dff3|nand_gate:nand3|c~4 ;
+; Maximum fan-out                             ; 26                                   ;
+; Total fan-out                               ; 133                                  ;
+; Average fan-out                             ; 2.33                                 ;
++---------------------------------------------+--------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                       ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+--------------+
+; Compilation Hierarchy Node      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                          ; Library Name ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+--------------+
+; |Controller                     ; 29 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 28   ; 0            ; |Controller                                  ; work         ;
+;    |Controller_Decoder:Decoder| ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|Controller_Decoder:Decoder       ; work         ;
+;    |d_ff_struct:Dff0|           ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff0                 ; work         ;
+;       |nand_gate:nand3|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff0|nand_gate:nand3 ; work         ;
+;    |d_ff_struct:Dff1|           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff1                 ; work         ;
+;       |nand_gate:nand3|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff1|nand_gate:nand3 ; work         ;
+;    |d_ff_struct:Dff2|           ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff2                 ; work         ;
+;       |nand_gate:nand3|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff2|nand_gate:nand3 ; work         ;
+;    |d_ff_struct:Dff3|           ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff3                 ; work         ;
+;       |nand_gate:nand3|         ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Controller|d_ff_struct:Dff3|nand_gate:nand3 ; work         ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops               ;
++--------------------------------------------------------+---+
+; Logic Cell Name                                        ;   ;
++--------------------------------------------------------+---+
+; d_ff_struct:Dff0|nand_gate:nand3|c~0                   ;   ;
+; d_ff_struct:Dff1|nand_gate:nand3|c~0                   ;   ;
+; d_ff_struct:Dff2|nand_gate:nand3|c~0                   ;   ;
+; d_ff_struct:Dff3|nand_gate:nand3|c~0                   ;   ;
+; Number of logic cells representing combinational loops ; 4 ;
++--------------------------------------------------------+---+
+Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Tue Nov 29 23:30:14 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SquareRoot -c SquareRoot
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file squareroot.v
+    Info (12023): Found entity 1: SquareRoot
+Info (12021): Found 1 design units, including 1 entities, in source file fa_1bit.v
+    Info (12023): Found entity 1: FA_1bit
+Info (12021): Found 1 design units, including 1 entities, in source file fa_16bit.v
+    Info (12023): Found entity 1: FA_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file fs_1bit.v
+    Info (12023): Found entity 1: FS_1bit
+Info (12021): Found 1 design units, including 1 entities, in source file fs_16bit.v
+    Info (12023): Found entity 1: FS_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file max.v
+    Info (12023): Found entity 1: Max
+Info (12021): Found 1 design units, including 1 entities, in source file min.v
+    Info (12023): Found entity 1: Min
+Info (12021): Found 1 design units, including 1 entities, in source file d_flipflop.v
+    Info (12023): Found entity 1: D_flipflop
+Info (12021): Found 1 design units, including 1 entities, in source file tristate.v
+    Info (12023): Found entity 1: Tristate
+Info (12021): Found 1 design units, including 1 entities, in source file mux_2to1_16bit.v
+    Info (12023): Found entity 1: Mux_2to1_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file mux_2to1_1bit.v
+    Info (12023): Found entity 1: Mux_2to1_1bit
+Info (12021): Found 1 design units, including 1 entities, in source file rightshifter3bitdiff_16bit.v
+    Info (12023): Found entity 1: RightShifter3bitDiff_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file rightshifter1bitdiff_16bit.v
+    Info (12023): Found entity 1: RightShifter1bitDiff_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file abs_16bit.v
+    Info (12023): Found entity 1: Abs_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file absminmax_16bit.v
+    Info (12023): Found entity 1: AbsMinMax_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file addsubmax_16bit.v
+    Info (12023): Found entity 1: AddSubMax_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file register_16bit.v
+    Info (12023): Found entity 1: Register_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file datapath.v
+    Info (12023): Found entity 1: Datapath
+Info (12021): Found 1 design units, including 1 entities, in source file controller_d3.v
+    Info (12023): Found entity 1: Controller_D3
+Info (12021): Found 1 design units, including 1 entities, in source file controller_d2.v
+    Info (12023): Found entity 1: Controller_D2
+Info (12021): Found 1 design units, including 1 entities, in source file controller_d1.v
+    Info (12023): Found entity 1: Controller_D1
+Info (12021): Found 1 design units, including 1 entities, in source file controller_d0.v
+    Info (12023): Found entity 1: Controller_D0
+Warning (10275): Verilog HDL Module Instantiation warning at Controller_Decoder.v(60): ignored dangling comma in List of Port Connections
+Info (12021): Found 1 design units, including 1 entities, in source file controller_decoder.v
+    Info (12023): Found entity 1: Controller_Decoder
+Info (12021): Found 1 design units, including 1 entities, in source file controller.v
+    Info (12023): Found entity 1: Controller
+Info (12021): Found 1 design units, including 1 entities, in source file tristate_16bit.v
+    Info (12023): Found entity 1: Tristate_16bit
+Info (12021): Found 1 design units, including 1 entities, in source file datapath_block.bdf
+    Info (12023): Found entity 1: Datapath_block
+Info (12021): Found 1 design units, including 1 entities, in source file nand_gate.v
+    Info (12023): Found entity 1: nand_gate
+Info (12021): Found 1 design units, including 1 entities, in source file not_gate.v
+    Info (12023): Found entity 1: not_gate
+Info (12021): Found 1 design units, including 1 entities, in source file d_ff_struct.v
+    Info (12023): Found entity 1: d_ff_struct
+Info (12021): Found 1 design units, including 1 entities, in source file controller_d.v
+    Info (12023): Found entity 1: Controller_D
+Info (12021): Found 1 design units, including 1 entities, in source file clockedd_latch.v
+    Info (12023): Found entity 1: clockedD_latch
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(14): created implicit net for "R5"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(14): created implicit net for "R4"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(14): created implicit net for "R3"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(14): created implicit net for "R2"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(14): created implicit net for "R1"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(15): created implicit net for "AU1"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(15): created implicit net for "AU2"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(15): created implicit net for "S1"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(15): created implicit net for "S2"
+Warning (10236): Verilog HDL Implicit Net warning at SquareRoot.v(15): created implicit net for "Load"
+Warning (10236): Verilog HDL Implicit Net warning at FA_1bit.v(5): created implicit net for "T1"
+Warning (10236): Verilog HDL Implicit Net warning at FA_1bit.v(6): created implicit net for "T2"
+Warning (10236): Verilog HDL Implicit Net warning at FA_1bit.v(6): created implicit net for "T3"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(6): created implicit net for "C0"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(7): created implicit net for "C1"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(8): created implicit net for "C2"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(9): created implicit net for "C3"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(10): created implicit net for "C4"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(11): created implicit net for "C5"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(12): created implicit net for "C6"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(13): created implicit net for "C7"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(14): created implicit net for "C8"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(15): created implicit net for "C9"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(16): created implicit net for "C10"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(17): created implicit net for "C11"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(18): created implicit net for "C12"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(19): created implicit net for "C13"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(20): created implicit net for "C14"
+Warning (10236): Verilog HDL Implicit Net warning at FA_16bit.v(21): created implicit net for "C15"
+Warning (10236): Verilog HDL Implicit Net warning at FS_1bit.v(5): created implicit net for "T1"
+Warning (10236): Verilog HDL Implicit Net warning at FS_1bit.v(6): created implicit net for "T2"
+Warning (10236): Verilog HDL Implicit Net warning at FS_1bit.v(6): created implicit net for "T3"
+Warning (10236): Verilog HDL Implicit Net warning at FS_1bit.v(6): created implicit net for "T4"
+Warning (10236): Verilog HDL Implicit Net warning at FS_1bit.v(7): created implicit net for "T5"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(7): created implicit net for "C0"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(8): created implicit net for "C1"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(9): created implicit net for "C2"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(10): created implicit net for "C3"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(11): created implicit net for "C4"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(12): created implicit net for "C5"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(13): created implicit net for "C6"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(14): created implicit net for "C7"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(15): created implicit net for "C8"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(16): created implicit net for "C9"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(17): created implicit net for "C10"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(18): created implicit net for "C11"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(19): created implicit net for "C12"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(20): created implicit net for "C13"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(21): created implicit net for "C14"
+Warning (10236): Verilog HDL Implicit Net warning at FS_16bit.v(22): created implicit net for "C15"
+Warning (10236): Verilog HDL Implicit Net warning at Max.v(6): created implicit net for "S"
+Warning (10236): Verilog HDL Implicit Net warning at Max.v(6): created implicit net for "C"
+Warning (10236): Verilog HDL Implicit Net warning at Min.v(6): created implicit net for "S"
+Warning (10236): Verilog HDL Implicit Net warning at Min.v(6): created implicit net for "C"
+Warning (10236): Verilog HDL Implicit Net warning at D_flipflop.v(5): created implicit net for "T1"
+Warning (10236): Verilog HDL Implicit Net warning at D_flipflop.v(5): created implicit net for "T2"
+Warning (10236): Verilog HDL Implicit Net warning at D_flipflop.v(5): created implicit net for "T3"
+Warning (10236): Verilog HDL Implicit Net warning at Mux_2to1_1bit.v(8): created implicit net for "nS"
+Warning (10236): Verilog HDL Implicit Net warning at Mux_2to1_1bit.v(9): created implicit net for "a1"
+Warning (10236): Verilog HDL Implicit Net warning at Mux_2to1_1bit.v(10): created implicit net for "a2"
+Warning (10236): Verilog HDL Implicit Net warning at AddSubMax_16bit.v(16): created implicit net for "C"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D3.v(6): created implicit net for "a1"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D3.v(7): created implicit net for "a2"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D2.v(6): created implicit net for "a1"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D2.v(7): created implicit net for "a2"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D2.v(8): created implicit net for "a3"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D2.v(9): created implicit net for "a4"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D1.v(6): created implicit net for "a1"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D1.v(7): created implicit net for "a2"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D0.v(6): created implicit net for "a1"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D0.v(7): created implicit net for "a2"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D0.v(8): created implicit net for "a3"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_D0.v(9): created implicit net for "a4"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(9): created implicit net for "a0"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(10): created implicit net for "a1"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(11): created implicit net for "a2"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(14): created implicit net for "a3"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(15): created implicit net for "a4"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(16): created implicit net for "a5"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(17): created implicit net for "a6"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(20): created implicit net for "a7"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(21): created implicit net for "a8"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(24): created implicit net for "a9"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(25): created implicit net for "a10"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(28): created implicit net for "a40"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(29): created implicit net for "a11"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(34): created implicit net for "a13"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(35): created implicit net for "a14"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(44): created implicit net for "a18"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(45): created implicit net for "a19"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(48): created implicit net for "a20"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(49): created implicit net for "a21"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(52): created implicit net for "a22"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(53): created implicit net for "a23"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(58): created implicit net for "a24"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(59): created implicit net for "a25"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(60): created implicit net for "a26"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(61): created implicit net for "a27"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(64): created implicit net for "a28"
+Warning (10236): Verilog HDL Implicit Net warning at Controller_Decoder.v(65): created implicit net for "a29"
+Warning (10236): Verilog HDL Implicit Net warning at d_ff_struct.v(6): created implicit net for "dbar"
+Warning (10236): Verilog HDL Implicit Net warning at d_ff_struct.v(7): created implicit net for "x"
+Warning (10236): Verilog HDL Implicit Net warning at d_ff_struct.v(8): created implicit net for "y"
+Info (12127): Elaborating entity "Controller" for the top level hierarchy
+Info (12128): Elaborating entity "d_ff_struct" for hierarchy "d_ff_struct:Dff0"
+Info (12128): Elaborating entity "not_gate" for hierarchy "d_ff_struct:Dff0|not_gate:not1"
+Info (12128): Elaborating entity "nand_gate" for hierarchy "d_ff_struct:Dff0|nand_gate:nand1"
+Info (12128): Elaborating entity "Controller_D" for hierarchy "Controller_D:controllerD"
+Info (12128): Elaborating entity "Controller_D3" for hierarchy "Controller_D:controllerD|Controller_D3:D3"
+Info (12128): Elaborating entity "Controller_D2" for hierarchy "Controller_D:controllerD|Controller_D2:D2"
+Info (12128): Elaborating entity "Controller_D1" for hierarchy "Controller_D:controllerD|Controller_D1:D1"
+Info (12128): Elaborating entity "Controller_D0" for hierarchy "Controller_D:controllerD|Controller_D0:D0"
+Info (12128): Elaborating entity "Controller_Decoder" for hierarchy "Controller_Decoder:Decoder"
+Info (144001): Generated suppressed messages file D:/Square root/output_files/SquareRoot.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 57 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 25 output pins
+    Info (21061): Implemented 29 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 105 warnings
+    Info: Peak virtual memory: 4593 megabytes
+    Info: Processing ended: Tue Nov 29 23:30:16 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in D:/Square root/output_files/SquareRoot.map.smsg.
+
+

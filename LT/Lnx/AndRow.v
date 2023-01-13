@@ -1,0 +1,38 @@
+module AndRow (IN, Bbit, OUT);
+input [31:0] IN;
+input Bbit;
+output [31:0] OUT;
+
+and and31 (OUT[31], IN[31], Bbit);
+and and30 (OUT[30], IN[30], Bbit);
+and and29 (OUT[29], IN[29], Bbit);
+and and28 (OUT[28], IN[28], Bbit);
+and and27 (OUT[27], IN[27], Bbit);
+and and26 (OUT[26], IN[26], Bbit);
+and and25 (OUT[25], IN[25], Bbit);
+and and24 (OUT[24], IN[24], Bbit);
+and and23 (OUT[23], IN[23], Bbit);
+and and22 (OUT[22], IN[22], Bbit);
+and and21 (OUT[21], IN[21], Bbit);
+and and20 (OUT[20], IN[20], Bbit);
+and and19 (OUT[19], IN[19], Bbit);
+and and18 (OUT[18], IN[18], Bbit);
+and and17 (OUT[17], IN[17], Bbit);
+and and16 (OUT[16], IN[16], Bbit);
+and and15 (OUT[15], IN[15], Bbit);
+and and14 (OUT[14], IN[14], Bbit);
+and and13 (OUT[13], IN[13], Bbit);
+and and12 (OUT[12], IN[12], Bbit);
+and and11 (OUT[11], IN[11], Bbit);
+and and10 (OUT[10], IN[10], Bbit);
+and and09 (OUT[9], IN[9], Bbit);
+and and08 (OUT[8], IN[8], Bbit);
+and and07 (OUT[7], IN[7], Bbit);
+and and06 (OUT[6], IN[6], Bbit);
+and and05 (OUT[5], IN[5], Bbit);
+and and04 (OUT[4], IN[4], Bbit);
+and and03 (OUT[3], IN[3], Bbit);
+and and02 (OUT[2], IN[2], Bbit);
+and and01 (OUT[1], IN[1], Bbit);
+and and00 (OUT[0], IN[0], Bbit);
+endmodule

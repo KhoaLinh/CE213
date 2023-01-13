@@ -1,0 +1,16 @@
+module Controller_D2 (D, A, C, D, E, F);
+	
+	output D;
+	input A;
+	input C;
+	input E;
+	input F;
+	
+	and and1(a1, ~D, E, F);
+	and and2(a2, ~C, D, ~E);
+	and and3(a3, ~C, D, ~F);
+	and and4(a4, D, ~E, ~F);
+	or or1(o1, a1, a2, a3, a4);
+	and and5(D, A, o1);
+	
+endmodule

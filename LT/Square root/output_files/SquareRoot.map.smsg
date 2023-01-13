@@ -1,0 +1,10 @@
+Info (10281): Verilog HDL Declaration information at Abs_16bit.v(7): object "fa1" differs only in case from object "FA1" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(4): object "R1" differs only in case from object "r1" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(5): object "R2" differs only in case from object "r2" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(6): object "R3" differs only in case from object "r3" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(7): object "R4" differs only in case from object "r4" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(8): object "R5" differs only in case from object "r5" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(11): object "S1" differs only in case from object "s1" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(12): object "S2" differs only in case from object "s2" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(9): object "AU1" differs only in case from object "au1" in the same scope
+Info (10281): Verilog HDL Declaration information at Datapath.v(10): object "AU2" differs only in case from object "au2" in the same scope
